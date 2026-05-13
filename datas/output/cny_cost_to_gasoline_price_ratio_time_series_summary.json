@@ -1,0 +1,13 @@
+{
+  "input_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_cny_basket_40_80_change.csv",
+  "output_csv": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_cost_to_gasoline_price_ratio_time_series.csv",
+  "output_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_cost_to_gasoline_price_ratio_time_series.svg",
+  "formula": "理论国内成本汽油价格比值 = 理论国内成本_CNY_per_ton_本期10工作日均值 / 汽油价格真实值_CNY_per_ton",
+  "rows": 118,
+  "date_min": "2016-05-12",
+  "date_max": "2025-02-20",
+  "ratio_min": 0.31517284093736886,
+  "ratio_max": 0.478242275098945,
+  "ratio_mean": 0.4017594084477841,
+  "ratio_median": 0.4058057759672721
+}

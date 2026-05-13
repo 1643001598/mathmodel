@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+<style>
+text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
+.title{font-size:18px;font-weight:700}
+.axis{stroke:#222;stroke-width:1}
+.grid{stroke:#ddd;stroke-width:1}
+.line{fill:none;stroke:#2f6fbb;stroke-width:2}
+circle{fill:#2f6fbb;opacity:.85}
+.note{fill:#666;font-size:11px}
+</style>
+<text class="title" x="86" y="26">理论国内成本10工作日均值 / 汽油价格真实值</text>
+<text class="note" x="86" y="45">单位同为 CNY/ton，图中比值越高表示理论成本占汽油价格比例越高。</text>
+<line class="grid" x1="86" y1="488.0" x2="1138" y2="488.0"/>
+<text x="78" y="492.0" text-anchor="end">0.3</text>
+<line class="grid" x1="86" y1="380.5" x2="1138" y2="380.5"/>
+<text x="78" y="384.5" text-anchor="end">0.35</text>
+<line class="grid" x1="86" y1="273.0" x2="1138" y2="273.0"/>
+<text x="78" y="277.0" text-anchor="end">0.4</text>
+<line class="grid" x1="86" y1="165.5" x2="1138" y2="165.5"/>
+<text x="78" y="169.5" text-anchor="end">0.45</text>
+<line class="grid" x1="86" y1="58.0" x2="1138" y2="58.0"/>
+<text x="78" y="62.0" text-anchor="end">0.5</text>
+<line class="grid" x1="86.0" y1="58" x2="86.0" y2="488"/>
+<text x="86.0" y="512" text-anchor="middle">2016-05</text>
+<line class="grid" x1="236.3" y1="58" x2="236.3" y2="488"/>
+<text x="236.3" y="512" text-anchor="middle">2017-08</text>
+<line class="grid" x1="386.6" y1="58" x2="386.6" y2="488"/>
+<text x="386.6" y="512" text-anchor="middle">2018-11</text>
+<line class="grid" x1="536.9" y1="58" x2="536.9" y2="488"/>
+<text x="536.9" y="512" text-anchor="middle">2020-02</text>
+<line class="grid" x1="687.1" y1="58" x2="687.1" y2="488"/>
+<text x="687.1" y="512" text-anchor="middle">2021-05</text>
+<line class="grid" x1="837.4" y1="58" x2="837.4" y2="488"/>
+<text x="837.4" y="512" text-anchor="middle">2022-08</text>
+<line class="grid" x1="987.7" y1="58" x2="987.7" y2="488"/>
+<text x="987.7" y="512" text-anchor="middle">2023-11</text>
+<line class="grid" x1="1138.0" y1="58" x2="1138.0" y2="488"/>
+<text x="1138.0" y="512" text-anchor="middle">2025-02</text>
+<line class="axis" x1="86" y1="58" x2="86" y2="488"/>
+<line class="axis" x1="86" y1="488" x2="1138" y2="488"/>
+<path class="line" d="M86.0,405.1 L90.6,356.9 L95.2,361.5 L109.3,426.6 L113.9,455.4 L118.5,408.4 L123.1,401.0 L128.7,404.5 L138.8,362.7 L148.0,409.9 L152.6,371.8 L157.2,319.1 L161.8,315.8 L166.7,337.4 L171.0,336.2 L177.5,337.5 L186.7,358.9 L191.3,374.0 L196.3,345.5 L205.8,384.1 L210.4,359.1 L215.3,384.3 L219.9,409.9 L229.1,398.7 L233.7,377.0 L247.4,357.5 L252.0,329.2 L263.2,315.3 L267.8,299.1 L281.6,301.7 L286.5,283.1 L291.1,291.9 L295.7,305.2 L301.9,300.2 L311.1,300.5 L316.0,291.0 L320.6,258.2 L325.5,251.5 L330.1,225.0 L334.7,221.3 L340.3,200.9 L344.9,204.2 L349.5,229.8 L354.1,220.7 L358.7,239.1 L363.3,213.1 L367.9,201.5 L372.1,189.1 L378.4,183.5 L383.0,210.0 L387.6,242.3 L392.1,290.7 L396.7,295.0 L401.3,315.4 L406.9,324.5 L411.5,304.0 L417.1,277.8 L421.7,268.6 L430.9,261.0 L435.8,220.6 L440.4,213.5 L446.0,200.2 L450.6,200.3 L455.5,227.5 L460.1,245.5 L464.7,248.5 L473.9,249.9 L478.4,272.1 L483.0,266.7 L488.0,233.1 L498.8,260.0 L503.4,254.7 L508.0,240.1 L512.6,223.8 L521.8,203.8 L533.6,275.8 L538.2,272.3 L585.1,391.6 L598.9,385.4 L633.0,375.8 L637.6,347.9 L642.2,347.7 L647.1,322.2 L651.7,327.1 L658.3,264.2 L662.5,261.9 L667.1,241.9 L671.7,273.3 L680.9,263.6 L686.2,248.1 L695.3,236.4 L700.9,206.9 L705.5,200.2 L710.1,205.7 L719.3,244.3 L723.9,227.3 L727.8,222.1 L734.7,178.1 L757.4,216.5 L762.0,222.9 L882.7,208.9 L887.3,197.1 L911.3,200.2 L930.9,176.3 L935.5,172.3 L940.5,159.9 L945.1,157.0 L949.7,134.4 L997.6,156.6 L1002.5,149.0 L1007.1,145.0 L1011.7,125.5 L1094.7,143.0 L1099.0,169.4 L1103.5,164.7 L1122.2,144.4 L1126.8,104.8 L1138.0,136.1"/>
+<circle cx="86.0" cy="405.1" r="2.2"><title>2016-05-12  0.3386</title></circle>
+<circle cx="90.6" cy="356.9" r="2.2"><title>2016-05-26  0.3610</title></circle>
+<circle cx="95.2" cy="361.5" r="2.2"><title>2016-06-09  0.3588</title></circle>
+<circle cx="109.3" cy="426.6" r="2.2"><title>2016-07-22  0.3286</title></circle>
+<circle cx="113.9" cy="455.4" r="2.2"><title>2016-08-05  0.3152</title></circle>
+<circle cx="118.5" cy="408.4" r="2.2"><title>2016-08-19  0.3370</title></circle>
+<circle cx="123.1" cy="401.0" r="2.2"><title>2016-09-02  0.3405</title></circle>
+<circle cx="128.7" cy="404.5" r="2.2"><title>2016-09-19  0.3388</title></circle>
+<circle cx="138.8" cy="362.7" r="2.2"><title>2016-10-20  0.3583</title></circle>
+<circle cx="148.0" cy="409.9" r="2.2"><title>2016-11-17  0.3363</title></circle>
+<circle cx="152.6" cy="371.8" r="2.2"><title>2016-12-01  0.3540</title></circle>
+<circle cx="157.2" cy="319.1" r="2.2"><title>2016-12-15  0.3786</title></circle>
+<circle cx="161.8" cy="315.8" r="2.2"><title>2016-12-29  0.3801</title></circle>
+<circle cx="166.7" cy="337.4" r="2.2"><title>2017-01-13  0.3701</title></circle>
+<circle cx="171.0" cy="336.2" r="2.2"><title>2017-01-26  0.3706</title></circle>
+<circle cx="177.5" cy="337.5" r="2.2"><title>2017-02-15  0.3700</title></circle>
+<circle cx="186.7" cy="358.9" r="2.2"><title>2017-03-15  0.3600</title></circle>
+<circle cx="191.3" cy="374.0" r="2.2"><title>2017-03-29  0.3530</title></circle>
+<circle cx="196.3" cy="345.5" r="2.2"><title>2017-04-13  0.3663</title></circle>
+<circle cx="205.8" cy="384.1" r="2.2"><title>2017-05-12  0.3483</title></circle>
+<circle cx="210.4" cy="359.1" r="2.2"><title>2017-05-26  0.3599</title></circle>
+<circle cx="215.3" cy="384.3" r="2.2"><title>2017-06-10  0.3483</title></circle>
+<circle cx="219.9" cy="409.9" r="2.2"><title>2017-06-24  0.3363</title></circle>
+<circle cx="229.1" cy="398.7" r="2.2"><title>2017-07-22  0.3415</title></circle>
+<circle cx="233.7" cy="377.0" r="2.2"><title>2017-08-05  0.3516</title></circle>
+<circle cx="247.4" cy="357.5" r="2.2"><title>2017-09-16  0.3607</title></circle>
+<circle cx="252.0" cy="329.2" r="2.2"><title>2017-09-30  0.3739</title></circle>
+<circle cx="263.2" cy="315.3" r="2.2"><title>2017-11-03  0.3803</title></circle>
+<circle cx="267.8" cy="299.1" r="2.2"><title>2017-11-17  0.3879</title></circle>
+<circle cx="281.6" cy="301.7" r="2.2"><title>2017-12-29  0.3867</title></circle>
+<circle cx="286.5" cy="283.1" r="2.2"><title>2018-01-13  0.3953</title></circle>
+<circle cx="291.1" cy="291.9" r="2.2"><title>2018-01-27  0.3912</title></circle>
+<circle cx="295.7" cy="305.2" r="2.2"><title>2018-02-10  0.3850</title></circle>
+<circle cx="301.9" cy="300.2" r="2.2"><title>2018-03-01  0.3874</title></circle>
+<circle cx="311.1" cy="300.5" r="2.2"><title>2018-03-29  0.3872</title></circle>
+<circle cx="316.0" cy="291.0" r="2.2"><title>2018-04-13  0.3916</title></circle>
+<circle cx="320.6" cy="258.2" r="2.2"><title>2018-04-27  0.4069</title></circle>
+<circle cx="325.5" cy="251.5" r="2.2"><title>2018-05-12  0.4100</title></circle>
+<circle cx="330.1" cy="225.0" r="2.2"><title>2018-05-26  0.4223</title></circle>
+<circle cx="334.7" cy="221.3" r="2.2"><title>2018-06-09  0.4240</title></circle>
+<circle cx="340.3" cy="200.9" r="2.2"><title>2018-06-26  0.4335</title></circle>
+<circle cx="344.9" cy="204.2" r="2.2"><title>2018-07-10  0.4320</title></circle>
+<circle cx="349.5" cy="229.8" r="2.2"><title>2018-07-24  0.4201</title></circle>
+<circle cx="354.1" cy="220.7" r="2.2"><title>2018-08-07  0.4243</title></circle>
+<circle cx="358.7" cy="239.1" r="2.2"><title>2018-08-21  0.4158</title></circle>
+<circle cx="363.3" cy="213.1" r="2.2"><title>2018-09-04  0.4278</title></circle>
+<circle cx="367.9" cy="201.5" r="2.2"><title>2018-09-18  0.4332</title></circle>
+<circle cx="372.1" cy="189.1" r="2.2"><title>2018-10-01  0.4390</title></circle>
+<circle cx="378.4" cy="183.5" r="2.2"><title>2018-10-20  0.4416</title></circle>
+<circle cx="383.0" cy="210.0" r="2.2"><title>2018-11-03  0.4293</title></circle>
+<circle cx="387.6" cy="242.3" r="2.2"><title>2018-11-17  0.4143</title></circle>
+<circle cx="392.1" cy="290.7" r="2.2"><title>2018-12-01  0.3918</title></circle>
+<circle cx="396.7" cy="295.0" r="2.2"><title>2018-12-15  0.3897</title></circle>
+<circle cx="401.3" cy="315.4" r="2.2"><title>2018-12-29  0.3803</title></circle>
+<circle cx="406.9" cy="324.5" r="2.2"><title>2019-01-15  0.3760</title></circle>
+<circle cx="411.5" cy="304.0" r="2.2"><title>2019-01-29  0.3856</title></circle>
+<circle cx="417.1" cy="277.8" r="2.2"><title>2019-02-15  0.3978</title></circle>
+<circle cx="421.7" cy="268.6" r="2.2"><title>2019-03-01  0.4020</title></circle>
+<circle cx="430.9" cy="261.0" r="2.2"><title>2019-03-29  0.4056</title></circle>
+<circle cx="435.8" cy="220.6" r="2.2"><title>2019-04-13  0.4244</title></circle>
+<circle cx="440.4" cy="213.5" r="2.2"><title>2019-04-27  0.4277</title></circle>
+<circle cx="446.0" cy="200.2" r="2.2"><title>2019-05-14  0.4339</title></circle>
+<circle cx="450.6" cy="200.3" r="2.2"><title>2019-05-28  0.4338</title></circle>
+<circle cx="455.5" cy="227.5" r="2.2"><title>2019-06-12  0.4211</title></circle>
+<circle cx="460.1" cy="245.5" r="2.2"><title>2019-06-26  0.4128</title></circle>
+<circle cx="464.7" cy="248.5" r="2.2"><title>2019-07-10  0.4114</title></circle>
+<circle cx="473.9" cy="249.9" r="2.2"><title>2019-08-07  0.4107</title></circle>
+<circle cx="478.4" cy="272.1" r="2.2"><title>2019-08-21  0.4004</title></circle>
+<circle cx="483.0" cy="266.7" r="2.2"><title>2019-09-04  0.4030</title></circle>
+<circle cx="488.0" cy="233.1" r="2.2"><title>2019-09-19  0.4185</title></circle>
+<circle cx="498.8" cy="260.0" r="2.2"><title>2019-10-22  0.4060</title></circle>
+<circle cx="503.4" cy="254.7" r="2.2"><title>2019-11-05  0.4085</title></circle>
+<circle cx="508.0" cy="240.1" r="2.2"><title>2019-11-19  0.4153</title></circle>
+<circle cx="512.6" cy="223.8" r="2.2"><title>2019-12-03  0.4229</title></circle>
+<circle cx="521.8" cy="203.8" r="2.2"><title>2019-12-31  0.4322</title></circle>
+<circle cx="533.6" cy="275.8" r="2.2"><title>2020-02-05  0.3987</title></circle>
+<circle cx="538.2" cy="272.3" r="2.2"><title>2020-02-19  0.4003</title></circle>
+<circle cx="585.1" cy="391.6" r="2.2"><title>2020-07-11  0.3448</title></circle>
+<circle cx="598.9" cy="385.4" r="2.2"><title>2020-08-22  0.3477</title></circle>
+<circle cx="633.0" cy="375.8" r="2.2"><title>2020-12-04  0.3522</title></circle>
+<circle cx="637.6" cy="347.9" r="2.2"><title>2020-12-18  0.3652</title></circle>
+<circle cx="642.2" cy="347.7" r="2.2"><title>2021-01-01  0.3653</title></circle>
+<circle cx="647.1" cy="322.2" r="2.2"><title>2021-01-16  0.3771</title></circle>
+<circle cx="651.7" cy="327.1" r="2.2"><title>2021-01-30  0.3748</title></circle>
+<circle cx="658.3" cy="264.2" r="2.2"><title>2021-02-19  0.4041</title></circle>
+<circle cx="662.5" cy="261.9" r="2.2"><title>2021-03-04  0.4052</title></circle>
+<circle cx="667.1" cy="241.9" r="2.2"><title>2021-03-18  0.4145</title></circle>
+<circle cx="671.7" cy="273.3" r="2.2"><title>2021-04-01  0.3999</title></circle>
+<circle cx="680.9" cy="263.6" r="2.2"><title>2021-04-29  0.4044</title></circle>
+<circle cx="686.2" cy="248.1" r="2.2"><title>2021-05-15  0.4116</title></circle>
+<circle cx="695.3" cy="236.4" r="2.2"><title>2021-06-12  0.4170</title></circle>
+<circle cx="700.9" cy="206.9" r="2.2"><title>2021-06-29  0.4307</title></circle>
+<circle cx="705.5" cy="200.2" r="2.2"><title>2021-07-13  0.4339</title></circle>
+<circle cx="710.1" cy="205.7" r="2.2"><title>2021-07-27  0.4313</title></circle>
+<circle cx="719.3" cy="244.3" r="2.2"><title>2021-08-24  0.4134</title></circle>
+<circle cx="723.9" cy="227.3" r="2.2"><title>2021-09-07  0.4212</title></circle>
+<circle cx="727.8" cy="222.1" r="2.2"><title>2021-09-19  0.4237</title></circle>
+<circle cx="734.7" cy="178.1" r="2.2"><title>2021-10-10  0.4441</title></circle>
+<circle cx="757.4" cy="216.5" r="2.2"><title>2021-12-18  0.4263</title></circle>
+<circle cx="762.0" cy="222.9" r="2.2"><title>2022-01-01  0.4233</title></circle>
+<circle cx="882.7" cy="208.9" r="2.2"><title>2023-01-04  0.4298</title></circle>
+<circle cx="887.3" cy="197.1" r="2.2"><title>2023-01-18  0.4353</title></circle>
+<circle cx="911.3" cy="200.2" r="2.2"><title>2023-04-01  0.4339</title></circle>
+<circle cx="930.9" cy="176.3" r="2.2"><title>2023-05-31  0.4450</title></circle>
+<circle cx="935.5" cy="172.3" r="2.2"><title>2023-06-14  0.4469</title></circle>
+<circle cx="940.5" cy="159.9" r="2.2"><title>2023-06-29  0.4526</title></circle>
+<circle cx="945.1" cy="157.0" r="2.2"><title>2023-07-13  0.4540</title></circle>
+<circle cx="949.7" cy="134.4" r="2.2"><title>2023-07-27  0.4645</title></circle>
+<circle cx="997.6" cy="156.6" r="2.2"><title>2023-12-20  0.4541</title></circle>
+<circle cx="1002.5" cy="149.0" r="2.2"><title>2024-01-04  0.4577</title></circle>
+<circle cx="1007.1" cy="145.0" r="2.2"><title>2024-01-18  0.4595</title></circle>
+<circle cx="1011.7" cy="125.5" r="2.2"><title>2024-02-01  0.4686</title></circle>
+<circle cx="1094.7" cy="143.0" r="2.2"><title>2024-10-11  0.4605</title></circle>
+<circle cx="1099.0" cy="169.4" r="2.2"><title>2024-10-24  0.4482</title></circle>
+<circle cx="1103.5" cy="164.7" r="2.2"><title>2024-11-07  0.4504</title></circle>
+<circle cx="1122.2" cy="144.4" r="2.2"><title>2025-01-03  0.4598</title></circle>
+<circle cx="1126.8" cy="104.8" r="2.2"><title>2025-01-17  0.4782</title></circle>
+<circle cx="1138.0" cy="136.1" r="2.2"><title>2025-02-20  0.4637</title></circle>
+</svg>

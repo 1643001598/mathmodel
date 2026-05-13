@@ -1,0 +1,17 @@
+{
+  "input_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_cost_10workday_change.csv",
+  "ratio_column": "汽油变化率_理论国内成本变化率比值",
+  "bin_width": 0.1,
+  "valid_ratio_count": 293,
+  "ratio_min": -17.814915205379844,
+  "ratio_max": 24.11083245097777,
+  "ratio_mean": 0.5714381117719163,
+  "ratio_median": 0.4854788789300811,
+  "full_bin_count": 422,
+  "nonzero_bin_count": 43,
+  "outputs": {
+    "full_stats": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\ratio_bin_count_0_1.csv",
+    "nonzero_stats": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\ratio_bin_count_0_1_nonzero.csv",
+    "svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\ratio_bin_count_0_1.svg"
+  }
+}

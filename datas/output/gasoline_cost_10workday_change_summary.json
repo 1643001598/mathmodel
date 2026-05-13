@@ -1,0 +1,21 @@
+{
+  "product_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\product_oil.csv",
+  "basket_cost_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\basket_cost_model_ready.csv",
+  "output_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_cost_10workday_change.csv",
+  "detail_output_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_cost_10workday_change_detail.csv",
+  "rolling_workdays": 10,
+  "align_rule": "for each gasoline adjustment date, use the nearest previous basket_cost_model_ready date within 10 calendar days",
+  "input_gasoline_rows": 320,
+  "matched_cost_rows": 295,
+  "unmatched_cost_rows": 25,
+  "date_min": "2000-06-06",
+  "date_max": "2026-05-09",
+  "matched_date_min": "2000-06-06",
+  "matched_date_max": "2025-02-20",
+  "change_rate_definition": {
+    "理论国内成本基础涨跌值_CNY_per_ton": "current 10-workday average - previous adjustment's 10-workday average",
+    "理论国内成本变化率": "current 10-workday average / previous adjustment's 10-workday average - 1",
+    "汽油价格变化率": "current gasoline CNY/ton / previous adjustment gasoline CNY/ton - 1",
+    "汽油变化率_理论国内成本变化率比值": "汽油价格变化率 / 理论国内成本变化率"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "basket_weights": {
+    "布伦特": 0.4,
+    "迪拜": 0.3,
+    "米纳斯": 0.3
+  },
+  "barrels_per_ton": 7.33,
+  "formula": "domestic_cost_cny_per_ton = (0.4 * Brent + 0.3 * Dubai + 0.3 * Minas) * USD_CNY * 7.33",
+  "exchange_rate_alignment": "merge_asof backward: use nearest previous USD_CNY close within 7 days",
+  "exchange_rate_max_stale_days": 7,
+  "input_rows": 6562,
+  "basket_valid_rows": 6294,
+  "fx_available_rows": 6429,
+  "model_ready_rows": 6164,
+  "full_date_min": "1999-07-07",
+  "full_date_max": "2025-02-21",
+  "model_ready_date_min": "2000-01-13",
+  "model_ready_date_max": "2025-02-21",
+  "outputs": {
+    "full": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\basket_cost_full.csv",
+    "model_ready": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\basket_cost_model_ready.csv"
+  }
+}

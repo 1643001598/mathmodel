@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="460" viewBox="0 0 860 460">
+<style>
+text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
+.title{font-size:18px;font-weight:700}
+.note{fill:#666;font-size:11px}
+.axis{stroke:#222;stroke-width:1}
+.grid{stroke:#ddd;stroke-width:1}
+</style>
+<text class="title" x="96" y="28">不同国际油价区间的平均传递系数</text>
+<text class="note" x="96" y="48">区间按本期10工作日一揽子均值（USD/bbl）划分；空缺或小样本区间需谨慎解释。</text>
+<line class="grid" x1="96" y1="368.0" x2="810" y2="368.0"/>
+<text x="88" y="372.0" text-anchor="end">0.00</text>
+<line class="grid" x1="96" y1="308.4" x2="810" y2="308.4"/>
+<text x="88" y="312.4" text-anchor="end">0.35</text>
+<line class="grid" x1="96" y1="248.8" x2="810" y2="248.8"/>
+<text x="88" y="252.8" text-anchor="end">0.69</text>
+<line class="grid" x1="96" y1="189.2" x2="810" y2="189.2"/>
+<text x="88" y="193.2" text-anchor="end">1.04</text>
+<line class="grid" x1="96" y1="129.6" x2="810" y2="129.6"/>
+<text x="88" y="133.6" text-anchor="end">1.38</text>
+<line class="grid" x1="96" y1="70.0" x2="810" y2="70.0"/>
+<text x="88" y="74.0" text-anchor="end">1.73</text>
+<rect x="96.0" y="215.1" width="90" height="152.9" fill="#78909c" rx="3"/>
+<text x="141.0" y="402" text-anchor="middle">&lt;40</text>
+<text x="141.0" y="420" text-anchor="middle">n=4</text>
+<text x="141.0" y="207.1" text-anchor="middle">0.887</text>
+<rect x="304.0" y="70.0" width="90" height="298.0" fill="#2f6fbb" rx="3"/>
+<text x="349.0" y="402" text-anchor="middle">40-80</text>
+<text x="349.0" y="420" text-anchor="middle">n=129</text>
+<text x="349.0" y="62.0" text-anchor="middle">1.729</text>
+<rect x="512.0" y="767.7" width="90" height="-399.7" fill="#8a6fb5" rx="3"/>
+<text x="557.0" y="402" text-anchor="middle">80-130</text>
+<text x="557.0" y="420" text-anchor="middle">n=42</text>
+<text x="557.0" y="759.7" text-anchor="middle">-2.319</text>
+<rect x="720.0" y="368.0" width="90" height="0.0" fill="#c35a4a" rx="3"/>
+<text x="765.0" y="402" text-anchor="middle">&gt;=130</text>
+<text x="765.0" y="420" text-anchor="middle">n=0</text>
+<line class="axis" x1="96" y1="70" x2="96" y2="368"/>
+<line class="axis" x1="96" y1="368" x2="810" y2="368"/>
+</svg>

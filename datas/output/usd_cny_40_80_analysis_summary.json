@@ -1,0 +1,40 @@
+{
+  "input_product_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\product_oil.csv",
+  "input_basket_cost_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\basket_cost_model_ready.csv",
+  "rolling_workdays": 10,
+  "barrels_per_ton": 7.33,
+  "start_date": "2016-01-01",
+  "filter_rule": "keep rows on or after 2016-01-01 where current and previous 10-workday average basket prices are both within [40, 80] USD/bbl",
+  "cny_conversion_rule": "theoretical_cost_cny_per_ton = 10-workday-average basket USD/bbl * USD_CNY on matched calculation date * 7.33",
+  "aligned_rows": 320,
+  "filtered_rows": 118,
+  "filtered_date_min": "2016-05-12",
+  "filtered_date_max": "2025-02-20",
+  "usd_ratio": {
+    "valid_rows": 118,
+    "min": -2.2749390814549266,
+    "max": 5.5823380418579625,
+    "full_bin_count": 80,
+    "nonzero_bin_count": 21
+  },
+  "cny_ratio": {
+    "valid_rows": 118,
+    "min": -3.7030294675852087,
+    "max": 5.196061439646352,
+    "full_bin_count": 91,
+    "nonzero_bin_count": 27
+  },
+  "outputs": {
+    "usd_filtered_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_usd_basket_40_80_change.csv",
+    "cny_filtered_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_cny_basket_40_80_change.csv",
+    "all_aligned_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_basket_40_80_all_aligned.csv",
+    "usd_bin_full": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1.csv",
+    "usd_bin_nonzero": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1_nonzero.csv",
+    "usd_bin_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1.svg",
+    "usd_line_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_cost_gasoline_time_series.svg",
+    "cny_bin_full": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_40_80_ratio_bin_count_0_1.csv",
+    "cny_bin_nonzero": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_40_80_ratio_bin_count_0_1_nonzero.csv",
+    "cny_bin_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_40_80_ratio_bin_count_0_1.svg",
+    "cny_line_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\cny_40_80_cost_gasoline_time_series.svg"
+  }
+}

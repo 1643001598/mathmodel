@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<style>
+text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
+.title{font-size:18px;font-weight:700}
+.note{fill:#666;font-size:11px}
+.axis{stroke:#222;stroke-width:1}
+.grid{stroke:#ddd;stroke-width:1}
+</style>
+<text class="title" x="90" y="28">上涨/下跌窗口传递系数对比（剔除&lt;50元理论调幅）</text>
+<text class="note" x="90" y="48">传递系数 = 汽油真实调幅 / 理论成本调幅（CNY/ton）；主图采用50元门槛后的有效窗口。</text>
+<line class="grid" x1="90" y1="340.0" x2="720" y2="340.0"/>
+<text x="82" y="344.0" text-anchor="end">0.00</text>
+<line class="grid" x1="90" y1="286.0" x2="720" y2="286.0"/>
+<text x="82" y="290.0" text-anchor="end">0.24</text>
+<line class="grid" x1="90" y1="232.0" x2="720" y2="232.0"/>
+<text x="82" y="236.0" text-anchor="end">0.48</text>
+<line class="grid" x1="90" y1="178.0" x2="720" y2="178.0"/>
+<text x="82" y="182.0" text-anchor="end">0.73</text>
+<line class="grid" x1="90" y1="124.0" x2="720" y2="124.0"/>
+<text x="82" y="128.0" text-anchor="end">0.97</text>
+<line class="grid" x1="90" y1="70.0" x2="720" y2="70.0"/>
+<text x="82" y="74.0" text-anchor="end">1.21</text>
+<rect x="220" y="70.0" width="120" height="270.0" fill="#2f6fbb" rx="3"/>
+<text x="280.0" y="370" text-anchor="middle">上涨样本</text>
+<text x="280.0" y="62.0" text-anchor="middle">1.209</text>
+<rect x="430" y="83.0" width="120" height="257.0" fill="#c35a4a" rx="3"/>
+<text x="490.0" y="370" text-anchor="middle">下跌样本</text>
+<text x="490.0" y="75.0" text-anchor="middle">1.151</text>
+<line class="axis" x1="90" y1="70" x2="90" y2="340"/>
+<line class="axis" x1="90" y1="340" x2="720" y2="340"/>
+</svg>

@@ -1,0 +1,25 @@
+{
+  "input_product_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\product_oil.csv",
+  "input_basket_cost_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\basket_cost_model_ready.csv",
+  "unit_for_theoretical_cost": "USD/bbl",
+  "rolling_workdays": 10,
+  "start_date": "2016-01-01",
+  "filter_rule": "keep rows on or after 2016-01-01 where current and previous 10-workday average basket prices are both within [40, 80] USD/bbl",
+  "aligned_rows": 320,
+  "filtered_rows": 118,
+  "valid_ratio_rows": 118,
+  "filtered_date_min": "2016-05-12",
+  "filtered_date_max": "2025-02-20",
+  "ratio_min": -2.2749390814549266,
+  "ratio_max": 5.5823380418579625,
+  "full_bin_count": 80,
+  "nonzero_bin_count": 21,
+  "outputs": {
+    "filtered_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_usd_basket_40_80_change.csv",
+    "full_aligned_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\gasoline_usd_basket_all_aligned.csv",
+    "bin_full": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1.csv",
+    "bin_nonzero": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1_nonzero.csv",
+    "bin_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_ratio_bin_count_0_1.svg",
+    "time_series_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\usd_40_80_cost_gasoline_time_series.svg"
+  }
+}

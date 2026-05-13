@@ -1,0 +1,16 @@
+{
+  "old_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\USD_CNY.csv",
+  "new_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\USD_CNY历史数据.csv",
+  "merged_file": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\USD_CNY.csv",
+  "old_rows": 5000,
+  "new_rows": 4523,
+  "merged_rows": 6868,
+  "date_min": "2000-01-13",
+  "date_max": "2026-05-13",
+  "duplicate_dates_after_merge": 0,
+  "overlap_rule": "same 日期 keeps USD_CNY历史数据.csv over USD_CNY.csv",
+  "kept_rows_by_source": {
+    "USD_CNY历史数据.csv": 4523,
+    "USD_CNY.csv": 2345
+  }
+}

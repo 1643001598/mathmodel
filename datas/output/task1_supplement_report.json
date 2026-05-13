@@ -1,0 +1,108 @@
+{
+  "analysis_scope": "2016-01-01以后，且能匹配理论成本10工作日均值的汽油调价窗口",
+  "theoretical_adjustment_definition": "理论应调幅度 = 理论国内成本_CNY_per_ton_本期10工作日均值 - 上期10工作日均值",
+  "actual_adjustment_definition": "实际调价幅度 = product_oil.csv中的汽油涨跌真实值_CNY_per_ton",
+  "asymmetry": {
+    "raw": {
+      "scope": "原始口径：全部可计算窗口",
+      "up_count": 106,
+      "down_count": 69,
+      "mean_up": 0.33683560731538403,
+      "mean_down": 1.3552032777739722,
+      "median_up": 1.2367031352570188,
+      "median_down": 1.2336673395204085,
+      "asymmetry_index": -1.0183676704585882,
+      "welch_test_normal_approx": {
+        "t_stat": -0.7320984973304632,
+        "df": 110.6643938265589,
+        "p_value_normal_approx": 0.4641084509312692
+      },
+      "conclusion": "未观察到上涨传递更充分的非对称性"
+    },
+    "effective_abs_theoretical_change_ge_50": {
+      "scope": "主口径：剔除|理论调幅|<50元窗口",
+      "up_count": 90,
+      "down_count": 60,
+      "mean_up": 1.2093751567402473,
+      "mean_down": 1.1512940287711486,
+      "median_up": 1.1473360248253215,
+      "median_down": 1.1322875023587913,
+      "asymmetry_index": 0.0580811279690987,
+      "welch_test_normal_approx": {
+        "t_stat": 0.5206892830798125,
+        "df": 104.61874479162348,
+        "p_value_normal_approx": 0.6025832412345018
+      },
+      "conclusion": "存在涨多跌少的非对称性"
+    },
+    "preferred_conclusion": "存在涨多跌少的非对称性",
+    "method_note": "原始口径易受|理论调幅|很小的分母影响；主口径按机制50元门槛剔除小理论调幅窗口。"
+  },
+  "interval_performance": {
+    "rows": [
+      {
+        "油价区间": "<40",
+        "样本数": 4,
+        "本期均值_USD_per_bbl_最小值": 30.030700000000003,
+        "本期均值_USD_per_bbl_最大值": 39.5599,
+        "平均理论调幅_CNY_per_ton": -479.79553965194987,
+        "平均实际调幅_CNY_per_ton": -407.5,
+        "平均传递系数": 0.8870348680725422,
+        "中位数传递系数": 1.0246069686948909,
+        "同向调价比例": 1.0
+      },
+      {
+        "油价区间": "40-80",
+        "样本数": 129,
+        "本期均值_USD_per_bbl_最小值": 40.0166,
+        "本期均值_USD_per_bbl_最大值": 79.976,
+        "平均理论调幅_CNY_per_ton": 18.291068670293793,
+        "平均实际调幅_CNY_per_ton": 18.565891472868216,
+        "平均传递系数": 1.7292823768458097,
+        "中位数传递系数": 1.333603186372517,
+        "同向调价比例": 0.9612403100775194
+      },
+      {
+        "油价区间": "80-130",
+        "样本数": 42,
+        "本期均值_USD_per_bbl_最小值": 80.3376,
+        "本期均值_USD_per_bbl_最大值": 119.6176,
+        "平均理论调幅_CNY_per_ton": 45.77991280259049,
+        "平均实际调幅_CNY_per_ton": 54.166666666666664,
+        "平均传递系数": -2.3193325129420193,
+        "中位数传递系数": 0.9805711450516628,
+        "同向调价比例": 0.9523809523809523
+      },
+      {
+        "油价区间": ">=130",
+        "样本数": 0,
+        "本期均值_USD_per_bbl_最小值": null,
+        "本期均值_USD_per_bbl_最大值": null,
+        "平均理论调幅_CNY_per_ton": null,
+        "平均实际调幅_CNY_per_ton": null,
+        "平均传递系数": null,
+        "中位数传递系数": null,
+        "同向调价比例": null
+      }
+    ],
+    "sample_count": 175
+  },
+  "threshold_50_cny_per_ton": {
+    "检查口径": "2016年后、已有理论窗口的调价日期",
+    "理论调幅绝对值小于50样本数": 25,
+    "其中实际未调样本数": 0,
+    "其中实际有调价样本数": 25,
+    "实际未调比例": 0.0,
+    "说明": "product_oil.csv只包含调价公告日期，无法直接观测所有未发布调价公告的10工作日窗口；本表仅验证公告窗口中的<50元样本。"
+  },
+  "outputs": {
+    "asymmetry_samples": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_asymmetry_samples.csv",
+    "asymmetry_summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_asymmetry_summary.csv",
+    "asymmetry_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_asymmetry_transmission.svg",
+    "interval_summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_oil_interval_summary.csv",
+    "interval_samples": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_oil_interval_samples.csv",
+    "interval_svg": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_oil_interval_transmission.svg",
+    "threshold_table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_threshold_50_check.csv",
+    "threshold_summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output\\task1_threshold_50_summary.csv"
+  }
+}
