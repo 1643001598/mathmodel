@@ -1,0 +1,76 @@
+{
+  "date_range": {
+    "start": "2016-01-01",
+    "end": "2026-05-09"
+  },
+  "filter": "target international oil interval average in [40, 80] USD/bbl",
+  "model": "国内汽油价格_USD_per_bbl = intercept + slope * 国际原油均价_USD_per_bbl",
+  "summary": [
+    {
+      "油价口径": "布伦特",
+      "筛选规则": "布伦特区间均价在[40,80] USD/bbl",
+      "自变量_国际原油列": "布伦特均价_USD_per_bbl",
+      "因变量": "汽油价格_USD_per_bbl",
+      "回归函数": "国内汽油 = 74.331118 + 1.244426 * 布伦特",
+      "样本数": 142,
+      "国际原油均值_USD_per_bbl": 64.05317711698837,
+      "国内汽油均值_USD_per_bbl": 154.04058134460487,
+      "截距_intercept": 74.33111848206647,
+      "斜率_slope": 1.2444263727458045,
+      "线性模型RMSE_USD_per_bbl": 4.708728232574048,
+      "线性模型MAE_USD_per_bbl": 4.001980603422677,
+      "线性模型R2": 0.8917903472606867
+    },
+    {
+      "油价口径": "迪拜",
+      "筛选规则": "迪拜区间均价在[40,80] USD/bbl",
+      "自变量_国际原油列": "迪拜均价_USD_per_bbl",
+      "因变量": "汽油价格_USD_per_bbl",
+      "回归函数": "国内汽油 = 76.853545 + 1.228938 * 迪拜",
+      "样本数": 147,
+      "国际原油均值_USD_per_bbl": 63.09845208695099,
+      "国内汽油均值_USD_per_bbl": 154.39761107275177,
+      "截距_intercept": 76.85354539099957,
+      "斜率_slope": 1.228937685743778,
+      "线性模型RMSE_USD_per_bbl": 5.563565776232862,
+      "线性模型MAE_USD_per_bbl": 4.518526079049399,
+      "线性模型R2": 0.8568725031275928
+    },
+    {
+      "油价口径": "WTI",
+      "筛选规则": "WTI区间均价在[40,80] USD/bbl",
+      "自变量_国际原油列": "WTI均价_USD_per_bbl",
+      "因变量": "汽油价格_USD_per_bbl",
+      "回归函数": "国内汽油 = 76.492556 + 1.294403 * WTI",
+      "样本数": 155,
+      "国际原油均值_USD_per_bbl": 61.51199554126771,
+      "国内汽油均值_USD_per_bbl": 156.11383785657887,
+      "截距_intercept": 76.49255590467045,
+      "斜率_slope": 1.2944025185866614,
+      "线性模型RMSE_USD_per_bbl": 5.619257844072158,
+      "线性模型MAE_USD_per_bbl": 4.489190909004361,
+      "线性模型R2": 0.8558850445881535
+    },
+    {
+      "油价口径": "三油算术均价",
+      "筛选规则": "三油算术均价区间均价在[40,80] USD/bbl",
+      "自变量_国际原油列": "三油算术均价_USD_per_bbl",
+      "因变量": "汽油价格_USD_per_bbl",
+      "回归函数": "国内汽油 = 74.334499 + 1.280318 * 三油算术均价",
+      "样本数": 149,
+      "国际原油均值_USD_per_bbl": 63.032297824215085,
+      "国内汽油均值_USD_per_bbl": 155.0358947570949,
+      "截距_intercept": 74.33449948900076,
+      "斜率_slope": 1.2803181551964795,
+      "线性模型RMSE_USD_per_bbl": 4.998956631616716,
+      "线性模型MAE_USD_per_bbl": 4.0926700447266615,
+      "线性模型R2": 0.8844177220747655
+    }
+  ],
+  "outputs": {
+    "samples": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\oil_40_80_linear_model_samples_from_2016.csv",
+    "summary_csv": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\oil_40_80_linear_model_summary_from_2016.csv",
+    "summary_json": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\oil_40_80_linear_model_summary_from_2016.json",
+    "chart": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\oil_40_80_linear_model_from_2016.svg"
+  }
+}

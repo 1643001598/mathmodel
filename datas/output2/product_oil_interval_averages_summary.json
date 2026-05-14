@@ -1,0 +1,24 @@
+{
+  "date_reference": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\product_oil.csv",
+  "date_range": {
+    "start": "2000-06-06",
+    "end": "2026-05-09"
+  },
+  "interval_rule": "current row uses oil-price observations where prev_date < date <= current_date",
+  "product_price_conversion": "gasoline_USD_per_bbl = gasoline_CNY_per_ton / USD_CNY / 7.33",
+  "barrels_per_ton": 7.33,
+  "fx_alignment": "merge_asof backward: use nearest previous USD_CNY close within 7 days",
+  "product_rows": 320,
+  "first_adjustment_date": "2000-06-06",
+  "last_adjustment_date": "2026-05-09",
+  "oil_source_rows": {
+    "布伦特": 6577,
+    "迪拜": 3024,
+    "WTI": 6497
+  },
+  "outputs": {
+    "table": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\product_oil_interval_averages.csv",
+    "chart": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\product_oil_interval_averages.svg",
+    "summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output2\\product_oil_interval_averages_summary.json"
+  }
+}
