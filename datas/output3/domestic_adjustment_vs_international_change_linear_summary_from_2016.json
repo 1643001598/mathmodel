@@ -1,0 +1,76 @@
+{
+  "date_range": {
+    "start": "2016-01-01",
+    "end": "2025-12-23"
+  },
+  "filter": "adjustment date >= 2016-01-01; current and previous international window averages in [40, 80] USD/bbl; current and previous sample counts in [8, 12]",
+  "model": "国内调价幅度_USD_per_bbl = intercept + slope * 国际价格变动_USD_per_bbl",
+  "summary": [
+    {
+      "油价口径": "布伦特",
+      "筛选规则": "调整日期>=2016-01-01，当前/上一国际均价均在[40,80] USD/bbl，当前/上一窗口样本天数均在[8,12]",
+      "自变量": "国际价格变动_USD_per_bbl",
+      "因变量": "国内调价幅度_USD_per_bbl",
+      "回归函数": "国内调价幅度 = 0.084411 + 1.172151 * 国际价格变动",
+      "样本数": 69,
+      "国际价格变动均值_USD_per_bbl": 0.29603312106572877,
+      "国内调价幅度均值_USD_per_bbl": 0.4314066078005915,
+      "截距_intercept": 0.08441098851075252,
+      "斜率_slope": 1.1721513391496314,
+      "线性模型RMSE_USD_per_bbl": 1.7728969381872461,
+      "线性模型MAE_USD_per_bbl": 1.3928849130280805,
+      "线性模型R2": 0.8134866291510703
+    },
+    {
+      "油价口径": "迪拜",
+      "筛选规则": "调整日期>=2016-01-01，当前/上一国际均价均在[40,80] USD/bbl，当前/上一窗口样本天数均在[8,12]",
+      "自变量": "国际价格变动_USD_per_bbl",
+      "因变量": "国内调价幅度_USD_per_bbl",
+      "回归函数": "国内调价幅度 = 0.227372 + 1.348780 * 国际价格变动",
+      "样本数": 75,
+      "国际价格变动均值_USD_per_bbl": 0.30873101010101095,
+      "国内调价幅度均值_USD_per_bbl": 0.6437823739132893,
+      "截距_intercept": 0.22737219764889327,
+      "斜率_slope": 1.348779884884756,
+      "线性模型RMSE_USD_per_bbl": 2.124111758556757,
+      "线性模型MAE_USD_per_bbl": 1.655458583641264,
+      "线性模型R2": 0.7297641981775593
+    },
+    {
+      "油价口径": "WTI",
+      "筛选规则": "调整日期>=2016-01-01，当前/上一国际均价均在[40,80] USD/bbl，当前/上一窗口样本天数均在[8,12]",
+      "自变量": "国际价格变动_USD_per_bbl",
+      "因变量": "国内调价幅度_USD_per_bbl",
+      "回归函数": "国内调价幅度 = 0.089290 + 1.183524 * 国际价格变动",
+      "样本数": 78,
+      "国际价格变动均值_USD_per_bbl": 0.26043466718466635,
+      "国内调价幅度均值_USD_per_bbl": 0.397520992487657,
+      "截距_intercept": 0.08929020505909319,
+      "斜率_slope": 1.1835244161638692,
+      "线性模型RMSE_USD_per_bbl": 2.132310771316475,
+      "线性模型MAE_USD_per_bbl": 1.6370162712190326,
+      "线性模型R2": 0.7522782042930045
+    },
+    {
+      "油价口径": "三油算术均价",
+      "筛选规则": "调整日期>=2016-01-01，当前/上一国际均价均在[40,80] USD/bbl，当前/上一窗口样本天数均在[8,12]",
+      "自变量": "国际价格变动_USD_per_bbl",
+      "因变量": "国内调价幅度_USD_per_bbl",
+      "回归函数": "国内调价幅度 = 0.084090 + 1.370768 * 国际价格变动",
+      "样本数": 73,
+      "国际价格变动均值_USD_per_bbl": 0.3628919099672523,
+      "国内调价幅度均值_USD_per_bbl": 0.5815304419176286,
+      "截距_intercept": 0.0840899089182105,
+      "斜率_slope": 1.3707677667554166,
+      "线性模型RMSE_USD_per_bbl": 1.566482058754279,
+      "线性模型MAE_USD_per_bbl": 1.2038755262998617,
+      "线性模型R2": 0.8570913537935263
+    }
+  ],
+  "outputs": {
+    "samples": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_samples_from_2016.csv",
+    "summary_csv": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_summary_from_2016.csv",
+    "summary_json": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_summary_from_2016.json",
+    "chart": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_from_2016.svg"
+  }
+}

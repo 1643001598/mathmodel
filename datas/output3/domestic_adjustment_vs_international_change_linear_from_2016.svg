@@ -1,0 +1,422 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<style>
+text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
+.title{font-size:18px;font-weight:700}
+.note{fill:#666;font-size:11px}
+.axis{stroke:#222;stroke-width:1}
+.grid{stroke:#ddd;stroke-width:1}
+.zero{stroke:#888;stroke-width:1.2;stroke-dasharray:4 4}
+.fit{stroke-width:2;fill:none}
+.point{opacity:.76}
+</style>
+<text class="title" x="82" y="30">2016年以来：国内调价幅度线性拟合国际价格变动</text>
+<text class="note" x="82" y="50">模型：国内调价幅度 = intercept + slope * 国际价格变动；单位均为 USD/bbl。</text>
+<line class="grid" x1="82.0" y1="78.0" x2="82.0" y2="332.0"/>
+<text x="82.0" y="352.0" text-anchor="middle">-10</text>
+<line class="grid" x1="216.5" y1="78.0" x2="216.5" y2="332.0"/>
+<text x="216.5" y="352.0" text-anchor="middle">-5</text>
+<line class="grid" x1="351.0" y1="78.0" x2="351.0" y2="332.0"/>
+<text x="351.0" y="352.0" text-anchor="middle">0</text>
+<line class="grid" x1="485.5" y1="78.0" x2="485.5" y2="332.0"/>
+<text x="485.5" y="352.0" text-anchor="middle">5</text>
+<line class="grid" x1="620.0" y1="78.0" x2="620.0" y2="332.0"/>
+<text x="620.0" y="352.0" text-anchor="middle">10</text>
+<line class="grid" x1="82.0" y1="332.0" x2="620.0" y2="332.0"/>
+<text x="74.0" y="336.0" text-anchor="end">-15</text>
+<line class="grid" x1="82.0" y1="281.2" x2="620.0" y2="281.2"/>
+<text x="74.0" y="285.2" text-anchor="end">-10</text>
+<line class="grid" x1="82.0" y1="230.4" x2="620.0" y2="230.4"/>
+<text x="74.0" y="234.4" text-anchor="end">-5</text>
+<line class="grid" x1="82.0" y1="179.6" x2="620.0" y2="179.6"/>
+<text x="74.0" y="183.6" text-anchor="end">0</text>
+<line class="grid" x1="82.0" y1="128.8" x2="620.0" y2="128.8"/>
+<text x="74.0" y="132.8" text-anchor="end">5</text>
+<line class="grid" x1="82.0" y1="78.0" x2="620.0" y2="78.0"/>
+<text x="74.0" y="82.0" text-anchor="end">10</text>
+<line class="zero" x1="351.0" y1="78.0" x2="351.0" y2="332.0"/>
+<line class="zero" x1="82.0" y1="179.6" x2="620.0" y2="179.6"/>
+<line class="axis" x1="82.0" y1="78.0" x2="82.0" y2="332.0"/>
+<line class="axis" x1="82.0" y1="332.0" x2="620.0" y2="332.0"/>
+<text x="82.0" y="64.0">布伦特 n=69 y=0.08+1.172x R2=0.813</text>
+<circle class="point" cx="450.0" cy="135.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="380.1" cy="156.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="469.4" cy="143.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="401.2" cy="137.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="318.7" cy="211.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="505.3" cy="92.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="393.1" cy="159.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="362.1" cy="131.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="350.1" cy="193.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="438.9" cy="139.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="259.2" cy="216.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="260.9" cy="230.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="377.4" cy="165.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="271.3" cy="217.0" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="480.6" cy="123.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="384.3" cy="157.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="438.3" cy="123.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="241.1" cy="207.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="335.8" cy="191.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="421.1" cy="123.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="239.6" cy="205.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="377.4" cy="165.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="268.8" cy="189.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="492.7" cy="143.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="402.4" cy="150.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="138.9" cy="281.5" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="126.6" cy="287.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="352.5" cy="204.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="446.6" cy="129.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="393.6" cy="139.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="339.5" cy="194.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="357.1" cy="169.6" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="160.8" cy="272.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="343.9" cy="203.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="362.4" cy="149.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="379.0" cy="157.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="463.5" cy="155.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="388.8" cy="165.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="401.4" cy="168.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="477.1" cy="126.5" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="433.3" cy="146.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="365.2" cy="160.5" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="448.7" cy="140.0" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="374.1" cy="163.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="412.3" cy="129.5" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="227.1" cy="227.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="410.5" cy="164.6" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="268.5" cy="200.9" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="378.8" cy="160.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="314.8" cy="207.9" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="384.1" cy="149.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="349.6" cy="160.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="339.0" cy="190.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="344.0" cy="166.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="429.6" cy="149.6" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="278.0" cy="260.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="396.7" cy="140.9" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="365.3" cy="189.2" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="344.3" cy="207.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="311.5" cy="233.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="433.3" cy="135.8" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="137.6" cy="270.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="530.5" cy="129.5" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="332.0" cy="134.1" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="339.5" cy="204.7" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="387.7" cy="155.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="325.7" cy="193.3" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="362.8" cy="190.4" r="3" fill="#2f6fbb"/>
+<circle class="point" cx="292.5" cy="213.1" r="3" fill="#2f6fbb"/>
+<line class="fit" x1="82.0" y1="297.8" x2="578.6" y2="78.0" stroke="#2f6fbb"/>
+<line class="grid" x1="696.0" y1="78.0" x2="696.0" y2="332.0"/>
+<text x="696.0" y="352.0" text-anchor="middle">-10</text>
+<line class="grid" x1="830.5" y1="78.0" x2="830.5" y2="332.0"/>
+<text x="830.5" y="352.0" text-anchor="middle">-5</text>
+<line class="grid" x1="965.0" y1="78.0" x2="965.0" y2="332.0"/>
+<text x="965.0" y="352.0" text-anchor="middle">0</text>
+<line class="grid" x1="1099.5" y1="78.0" x2="1099.5" y2="332.0"/>
+<text x="1099.5" y="352.0" text-anchor="middle">5</text>
+<line class="grid" x1="1234.0" y1="78.0" x2="1234.0" y2="332.0"/>
+<text x="1234.0" y="352.0" text-anchor="middle">10</text>
+<line class="grid" x1="696.0" y1="332.0" x2="1234.0" y2="332.0"/>
+<text x="688.0" y="336.0" text-anchor="end">-15</text>
+<line class="grid" x1="696.0" y1="281.2" x2="1234.0" y2="281.2"/>
+<text x="688.0" y="285.2" text-anchor="end">-10</text>
+<line class="grid" x1="696.0" y1="230.4" x2="1234.0" y2="230.4"/>
+<text x="688.0" y="234.4" text-anchor="end">-5</text>
+<line class="grid" x1="696.0" y1="179.6" x2="1234.0" y2="179.6"/>
+<text x="688.0" y="183.6" text-anchor="end">0</text>
+<line class="grid" x1="696.0" y1="128.8" x2="1234.0" y2="128.8"/>
+<text x="688.0" y="132.8" text-anchor="end">5</text>
+<line class="grid" x1="696.0" y1="78.0" x2="1234.0" y2="78.0"/>
+<text x="688.0" y="82.0" text-anchor="end">10</text>
+<line class="zero" x1="965.0" y1="78.0" x2="965.0" y2="332.0"/>
+<line class="zero" x1="696.0" y1="179.6" x2="1234.0" y2="179.6"/>
+<line class="axis" x1="696.0" y1="78.0" x2="696.0" y2="332.0"/>
+<line class="axis" x1="696.0" y1="332.0" x2="1234.0" y2="332.0"/>
+<text x="696.0" y="64.0">迪拜 n=75 y=0.23+1.349x R2=0.730</text>
+<circle class="point" cx="1032.0" cy="135.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1020.7" cy="156.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1013.6" cy="143.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="984.2" cy="137.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="971.4" cy="211.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1143.9" cy="92.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="980.9" cy="159.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1008.0" cy="131.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="965.4" cy="193.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1007.4" cy="139.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="913.6" cy="216.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="910.1" cy="230.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="983.8" cy="165.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="927.5" cy="217.0" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1016.6" cy="123.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1062.5" cy="157.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1042.6" cy="123.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="951.7" cy="207.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="949.0" cy="191.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="989.6" cy="123.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="919.5" cy="205.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="961.6" cy="165.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="928.3" cy="189.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1007.9" cy="143.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1049.7" cy="150.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1008.4" cy="131.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="733.6" cy="281.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="875.0" cy="287.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="800.1" cy="204.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="908.0" cy="254.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="945.0" cy="158.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1022.5" cy="129.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="997.2" cy="139.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="956.0" cy="194.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="967.0" cy="169.6" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="761.0" cy="272.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="917.1" cy="203.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1006.6" cy="149.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="967.3" cy="157.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1000.2" cy="155.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1002.5" cy="165.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="973.3" cy="168.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1023.9" cy="147.9" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1045.3" cy="126.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1072.4" cy="146.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="977.7" cy="160.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1080.4" cy="140.0" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="985.8" cy="163.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1079.4" cy="129.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="920.9" cy="227.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1014.3" cy="164.6" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="946.2" cy="200.9" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="999.8" cy="160.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="863.1" cy="207.9" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="967.8" cy="149.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1004.0" cy="129.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="994.6" cy="221.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="947.3" cy="190.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="984.2" cy="166.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1029.0" cy="149.6" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1028.8" cy="126.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="993.1" cy="140.9" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="970.8" cy="189.2" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="993.0" cy="141.0" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="938.5" cy="207.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="863.6" cy="233.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1023.6" cy="135.8" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="803.7" cy="270.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1070.7" cy="129.5" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="1008.8" cy="134.1" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="986.5" cy="204.7" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="995.9" cy="155.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="948.7" cy="193.3" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="939.9" cy="190.4" r="3" fill="#7a5dbb"/>
+<circle class="point" cx="913.5" cy="213.1" r="3" fill="#7a5dbb"/>
+<line class="fit" x1="696.0" y1="314.3" x2="1159.9" y2="78.0" stroke="#7a5dbb"/>
+<line class="grid" x1="82.0" y1="424.0" x2="82.0" y2="678.0"/>
+<text x="82.0" y="698.0" text-anchor="middle">-10</text>
+<line class="grid" x1="216.5" y1="424.0" x2="216.5" y2="678.0"/>
+<text x="216.5" y="698.0" text-anchor="middle">-5</text>
+<line class="grid" x1="351.0" y1="424.0" x2="351.0" y2="678.0"/>
+<text x="351.0" y="698.0" text-anchor="middle">0</text>
+<line class="grid" x1="485.5" y1="424.0" x2="485.5" y2="678.0"/>
+<text x="485.5" y="698.0" text-anchor="middle">5</text>
+<line class="grid" x1="620.0" y1="424.0" x2="620.0" y2="678.0"/>
+<text x="620.0" y="698.0" text-anchor="middle">10</text>
+<line class="grid" x1="82.0" y1="678.0" x2="620.0" y2="678.0"/>
+<text x="74.0" y="682.0" text-anchor="end">-15</text>
+<line class="grid" x1="82.0" y1="627.2" x2="620.0" y2="627.2"/>
+<text x="74.0" y="631.2" text-anchor="end">-10</text>
+<line class="grid" x1="82.0" y1="576.4" x2="620.0" y2="576.4"/>
+<text x="74.0" y="580.4" text-anchor="end">-5</text>
+<line class="grid" x1="82.0" y1="525.6" x2="620.0" y2="525.6"/>
+<text x="74.0" y="529.6" text-anchor="end">0</text>
+<line class="grid" x1="82.0" y1="474.8" x2="620.0" y2="474.8"/>
+<text x="74.0" y="478.8" text-anchor="end">5</text>
+<line class="grid" x1="82.0" y1="424.0" x2="620.0" y2="424.0"/>
+<text x="74.0" y="428.0" text-anchor="end">10</text>
+<line class="zero" x1="351.0" y1="424.0" x2="351.0" y2="678.0"/>
+<line class="zero" x1="82.0" y1="525.6" x2="620.0" y2="525.6"/>
+<line class="axis" x1="82.0" y1="424.0" x2="82.0" y2="678.0"/>
+<line class="axis" x1="82.0" y1="678.0" x2="620.0" y2="678.0"/>
+<text x="82.0" y="410.0">WTI n=78 y=0.09+1.184x R2=0.752</text>
+<circle class="point" cx="435.2" cy="481.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="395.2" cy="502.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="453.5" cy="489.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="376.3" cy="483.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="319.0" cy="557.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="460.6" cy="438.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="379.5" cy="505.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="358.1" cy="477.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="337.1" cy="539.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="459.2" cy="485.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="288.8" cy="562.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="264.3" cy="576.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="407.9" cy="511.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="327.8" cy="563.0" r="3" fill="#348f6c"/>
+<circle class="point" cx="436.6" cy="469.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="397.8" cy="503.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="395.9" cy="469.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="214.5" cy="553.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="384.7" cy="537.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="536.6" cy="469.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="224.7" cy="551.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="355.5" cy="511.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="267.7" cy="535.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="427.2" cy="489.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="333.6" cy="496.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="450.3" cy="477.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="162.8" cy="627.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="169.7" cy="633.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="339.7" cy="550.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="196.0" cy="600.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="441.9" cy="504.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="430.4" cy="475.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="388.4" cy="485.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="285.8" cy="540.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="322.5" cy="515.6" r="3" fill="#348f6c"/>
+<circle class="point" cx="152.7" cy="618.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="392.7" cy="549.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="425.1" cy="495.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="348.4" cy="503.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="416.1" cy="501.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="373.5" cy="511.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="373.9" cy="514.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="456.4" cy="472.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="404.7" cy="492.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="374.0" cy="506.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="446.9" cy="486.0" r="3" fill="#348f6c"/>
+<circle class="point" cx="384.2" cy="509.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="423.9" cy="475.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="237.9" cy="573.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="391.6" cy="510.6" r="3" fill="#348f6c"/>
+<circle class="point" cx="263.8" cy="546.9" r="3" fill="#348f6c"/>
+<circle class="point" cx="403.5" cy="506.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="358.3" cy="553.9" r="3" fill="#348f6c"/>
+<circle class="point" cx="427.2" cy="495.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="246.1" cy="621.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="456.4" cy="475.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="322.9" cy="567.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="400.8" cy="482.6" r="3" fill="#348f6c"/>
+<circle class="point" cx="320.8" cy="536.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="339.8" cy="512.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="435.3" cy="495.6" r="3" fill="#348f6c"/>
+<circle class="point" cx="458.1" cy="472.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="265.8" cy="536.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="269.6" cy="606.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="405.3" cy="486.9" r="3" fill="#348f6c"/>
+<circle class="point" cx="342.0" cy="535.2" r="3" fill="#348f6c"/>
+<circle class="point" cx="445.6" cy="487.0" r="3" fill="#348f6c"/>
+<circle class="point" cx="331.5" cy="553.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="304.2" cy="579.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="424.4" cy="481.8" r="3" fill="#348f6c"/>
+<circle class="point" cx="135.0" cy="616.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="539.2" cy="475.5" r="3" fill="#348f6c"/>
+<circle class="point" cx="304.2" cy="480.1" r="3" fill="#348f6c"/>
+<circle class="point" cx="368.1" cy="550.7" r="3" fill="#348f6c"/>
+<circle class="point" cx="380.5" cy="501.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="317.9" cy="539.3" r="3" fill="#348f6c"/>
+<circle class="point" cx="332.0" cy="536.4" r="3" fill="#348f6c"/>
+<circle class="point" cx="299.6" cy="559.1" r="3" fill="#348f6c"/>
+<line class="fit" x1="82.0" y1="644.9" x2="576.3" y2="424.0" stroke="#348f6c"/>
+<line class="grid" x1="696.0" y1="424.0" x2="696.0" y2="678.0"/>
+<text x="696.0" y="698.0" text-anchor="middle">-10</text>
+<line class="grid" x1="830.5" y1="424.0" x2="830.5" y2="678.0"/>
+<text x="830.5" y="698.0" text-anchor="middle">-5</text>
+<line class="grid" x1="965.0" y1="424.0" x2="965.0" y2="678.0"/>
+<text x="965.0" y="698.0" text-anchor="middle">0</text>
+<line class="grid" x1="1099.5" y1="424.0" x2="1099.5" y2="678.0"/>
+<text x="1099.5" y="698.0" text-anchor="middle">5</text>
+<line class="grid" x1="1234.0" y1="424.0" x2="1234.0" y2="678.0"/>
+<text x="1234.0" y="698.0" text-anchor="middle">10</text>
+<line class="grid" x1="696.0" y1="678.0" x2="1234.0" y2="678.0"/>
+<text x="688.0" y="682.0" text-anchor="end">-15</text>
+<line class="grid" x1="696.0" y1="627.2" x2="1234.0" y2="627.2"/>
+<text x="688.0" y="631.2" text-anchor="end">-10</text>
+<line class="grid" x1="696.0" y1="576.4" x2="1234.0" y2="576.4"/>
+<text x="688.0" y="580.4" text-anchor="end">-5</text>
+<line class="grid" x1="696.0" y1="525.6" x2="1234.0" y2="525.6"/>
+<text x="688.0" y="529.6" text-anchor="end">0</text>
+<line class="grid" x1="696.0" y1="474.8" x2="1234.0" y2="474.8"/>
+<text x="688.0" y="478.8" text-anchor="end">5</text>
+<line class="grid" x1="696.0" y1="424.0" x2="1234.0" y2="424.0"/>
+<text x="688.0" y="428.0" text-anchor="end">10</text>
+<line class="zero" x1="965.0" y1="424.0" x2="965.0" y2="678.0"/>
+<line class="zero" x1="696.0" y1="525.6" x2="1234.0" y2="525.6"/>
+<line class="axis" x1="696.0" y1="424.0" x2="696.0" y2="678.0"/>
+<line class="axis" x1="696.0" y1="678.0" x2="1234.0" y2="678.0"/>
+<text x="696.0" y="410.0">三油算术均价 n=73 y=0.08+1.371x R2=0.857</text>
+<circle class="point" cx="1048.4" cy="481.2" r="3" fill="#222222"/>
+<circle class="point" cx="1008.0" cy="502.4" r="3" fill="#222222"/>
+<circle class="point" cx="1054.9" cy="489.1" r="3" fill="#222222"/>
+<circle class="point" cx="996.6" cy="483.1" r="3" fill="#222222"/>
+<circle class="point" cx="945.7" cy="557.8" r="3" fill="#222222"/>
+<circle class="point" cx="1112.6" cy="438.8" r="3" fill="#222222"/>
+<circle class="point" cx="993.8" cy="505.7" r="3" fill="#222222"/>
+<circle class="point" cx="985.4" cy="477.4" r="3" fill="#222222"/>
+<circle class="point" cx="960.2" cy="539.7" r="3" fill="#222222"/>
+<circle class="point" cx="1044.5" cy="485.4" r="3" fill="#222222"/>
+<circle class="point" cx="896.5" cy="562.3" r="3" fill="#222222"/>
+<circle class="point" cx="887.8" cy="576.3" r="3" fill="#222222"/>
+<circle class="point" cx="999.0" cy="511.3" r="3" fill="#222222"/>
+<circle class="point" cx="918.2" cy="563.0" r="3" fill="#222222"/>
+<circle class="point" cx="1053.9" cy="469.8" r="3" fill="#222222"/>
+<circle class="point" cx="1024.2" cy="503.7" r="3" fill="#222222"/>
+<circle class="point" cx="1034.9" cy="469.2" r="3" fill="#222222"/>
+<circle class="point" cx="878.5" cy="553.7" r="3" fill="#222222"/>
+<circle class="point" cx="965.8" cy="537.2" r="3" fill="#222222"/>
+<circle class="point" cx="1058.4" cy="469.2" r="3" fill="#222222"/>
+<circle class="point" cx="870.6" cy="551.1" r="3" fill="#222222"/>
+<circle class="point" cx="974.1" cy="511.4" r="3" fill="#222222"/>
+<circle class="point" cx="897.6" cy="535.7" r="3" fill="#222222"/>
+<circle class="point" cx="1051.9" cy="489.1" r="3" fill="#222222"/>
+<circle class="point" cx="1004.6" cy="496.3" r="3" fill="#222222"/>
+<circle class="point" cx="1045.7" cy="477.2" r="3" fill="#222222"/>
+<circle class="point" cx="754.5" cy="627.5" r="3" fill="#222222"/>
+<circle class="point" cx="799.7" cy="633.1" r="3" fill="#222222"/>
+<circle class="point" cx="906.8" cy="550.7" r="3" fill="#222222"/>
+<circle class="point" cx="1042.5" cy="475.2" r="3" fill="#222222"/>
+<circle class="point" cx="1002.4" cy="485.4" r="3" fill="#222222"/>
+<circle class="point" cx="936.4" cy="540.7" r="3" fill="#222222"/>
+<circle class="point" cx="958.2" cy="515.6" r="3" fill="#222222"/>
+<circle class="point" cx="767.5" cy="618.8" r="3" fill="#222222"/>
+<circle class="point" cx="960.6" cy="549.8" r="3" fill="#222222"/>
+<circle class="point" cx="1007.4" cy="495.3" r="3" fill="#222222"/>
+<circle class="point" cx="974.2" cy="503.3" r="3" fill="#222222"/>
+<circle class="point" cx="1035.9" cy="501.2" r="3" fill="#222222"/>
+<circle class="point" cx="997.6" cy="511.8" r="3" fill="#222222"/>
+<circle class="point" cx="992.2" cy="514.8" r="3" fill="#222222"/>
+<circle class="point" cx="1068.9" cy="472.5" r="3" fill="#222222"/>
+<circle class="point" cx="1046.1" cy="492.7" r="3" fill="#222222"/>
+<circle class="point" cx="981.6" cy="506.5" r="3" fill="#222222"/>
+<circle class="point" cx="1068.0" cy="486.0" r="3" fill="#222222"/>
+<circle class="point" cx="990.7" cy="509.4" r="3" fill="#222222"/>
+<circle class="point" cx="1047.9" cy="475.5" r="3" fill="#222222"/>
+<circle class="point" cx="871.3" cy="573.1" r="3" fill="#222222"/>
+<circle class="point" cx="1014.8" cy="510.6" r="3" fill="#222222"/>
+<circle class="point" cx="902.2" cy="546.9" r="3" fill="#222222"/>
+<circle class="point" cx="1003.4" cy="506.3" r="3" fill="#222222"/>
+<circle class="point" cx="921.4" cy="553.9" r="3" fill="#222222"/>
+<circle class="point" cx="1002.4" cy="495.1" r="3" fill="#222222"/>
+<circle class="point" cx="1021.8" cy="475.3" r="3" fill="#222222"/>
+<circle class="point" cx="967.9" cy="567.7" r="3" fill="#222222"/>
+<circle class="point" cx="945.0" cy="536.2" r="3" fill="#222222"/>
+<circle class="point" cx="965.4" cy="512.2" r="3" fill="#222222"/>
+<circle class="point" cx="1040.6" cy="495.6" r="3" fill="#222222"/>
+<circle class="point" cx="1052.5" cy="472.5" r="3" fill="#222222"/>
+<circle class="point" cx="872.1" cy="606.2" r="3" fill="#222222"/>
+<circle class="point" cx="1007.7" cy="486.9" r="3" fill="#222222"/>
+<circle class="point" cx="968.7" cy="535.2" r="3" fill="#222222"/>
+<circle class="point" cx="1037.6" cy="487.0" r="3" fill="#222222"/>
+<circle class="point" cx="947.4" cy="553.7" r="3" fill="#222222"/>
+<circle class="point" cx="902.4" cy="579.1" r="3" fill="#222222"/>
+<circle class="point" cx="1036.4" cy="481.8" r="3" fill="#222222"/>
+<circle class="point" cx="768.1" cy="616.7" r="3" fill="#222222"/>
+<circle class="point" cx="1122.8" cy="475.5" r="3" fill="#222222"/>
+<circle class="point" cx="957.7" cy="480.1" r="3" fill="#222222"/>
+<circle class="point" cx="974.0" cy="550.7" r="3" fill="#222222"/>
+<circle class="point" cx="997.3" cy="501.3" r="3" fill="#222222"/>
+<circle class="point" cx="940.1" cy="539.3" r="3" fill="#222222"/>
+<circle class="point" cx="954.3" cy="536.4" r="3" fill="#222222"/>
+<circle class="point" cx="911.2" cy="559.1" r="3" fill="#222222"/>
+<line class="fit" x1="696.0" y1="664.0" x2="1159.6" y2="424.0" stroke="#222222"/>
+<text x="82" y="726">横轴：国际价格变动 USD/bbl；纵轴：国内调价幅度 USD/bbl；样本日期 >= 2016-01-01。</text>
+</svg>

@@ -34,7 +34,7 @@ text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
 <text x="72.0" y="82.0" text-anchor="end">200</text>
 <line class="axis" x1="80.0" y1="78.0" x2="80.0" y2="337.0"/>
 <line class="axis" x1="80.0" y1="337.0" x2="622.0" y2="337.0"/>
-<text x="80.0" y="64.0">布伦特 n=142 y=74.33+1.244x</text>
+<text x="80.0" y="64.0">布伦特 n=142 y=74.33+1.244x R2=0.892</text>
 <circle class="point" cx="143.0" cy="257.1" r="3" fill="#2f6fbb"/>
 <circle class="point" cx="192.9" cy="247.9" r="3" fill="#2f6fbb"/>
 <circle class="point" cx="207.6" cy="242.2" r="3" fill="#2f6fbb"/>
@@ -202,7 +202,7 @@ text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
 <text x="688.0" y="82.0" text-anchor="end">200</text>
 <line class="axis" x1="696.0" y1="78.0" x2="696.0" y2="337.0"/>
 <line class="axis" x1="696.0" y1="337.0" x2="1238.0" y2="337.0"/>
-<text x="696.0" y="64.0">迪拜 n=147 y=76.85+1.229x</text>
+<text x="696.0" y="64.0">迪拜 n=147 y=76.85+1.229x R2=0.857</text>
 <circle class="point" cx="719.8" cy="257.1" r="3" fill="#7a5dbb"/>
 <circle class="point" cx="753.6" cy="247.9" r="3" fill="#7a5dbb"/>
 <circle class="point" cx="781.6" cy="242.2" r="3" fill="#7a5dbb"/>
@@ -375,7 +375,7 @@ text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
 <text x="72.0" y="427.0" text-anchor="end">200</text>
 <line class="axis" x1="80.0" y1="423.0" x2="80.0" y2="682.0"/>
 <line class="axis" x1="80.0" y1="682.0" x2="622.0" y2="682.0"/>
-<text x="80.0" y="409.0">WTI n=155 y=76.49+1.294x</text>
+<text x="80.0" y="409.0">WTI n=155 y=76.49+1.294x R2=0.856</text>
 <circle class="point" cx="146.6" cy="602.1" r="3" fill="#348f6c"/>
 <circle class="point" cx="189.0" cy="592.9" r="3" fill="#348f6c"/>
 <circle class="point" cx="211.3" cy="587.2" r="3" fill="#348f6c"/>
@@ -556,7 +556,7 @@ text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
 <text x="688.0" y="427.0" text-anchor="end">200</text>
 <line class="axis" x1="696.0" y1="423.0" x2="696.0" y2="682.0"/>
 <line class="axis" x1="696.0" y1="682.0" x2="1238.0" y2="682.0"/>
-<text x="696.0" y="409.0">三油算术均价 n=149 y=74.33+1.280x</text>
+<text x="696.0" y="409.0">三油算术均价 n=149 y=74.33+1.280x R2=0.884</text>
 <circle class="point" cx="747.1" cy="602.1" r="3" fill="#222222"/>
 <circle class="point" cx="789.1" cy="592.9" r="3" fill="#222222"/>
 <circle class="point" cx="810.8" cy="587.2" r="3" fill="#222222"/>

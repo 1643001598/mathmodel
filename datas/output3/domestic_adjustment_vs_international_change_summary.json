@@ -1,0 +1,29 @@
+{
+  "date_range": {
+    "start": "2015-01-13",
+    "end": "2025-12-23",
+    "source_start": "2000-06-06",
+    "source_end": "2026-05-09"
+  },
+  "window_rule": "current row uses oil-price observations where prev_date < date <= current_date",
+  "international_change_definition": "国际价格变动_USD_per_bbl = 当前调价窗口国际均价 - 上一调价窗口国际均价",
+  "domestic_adjustment_definition": "国内调价幅度_CNY_per_ton = product_oil.csv 中 汽油涨跌 解析值",
+  "domestic_adjustment_conversion": "国内调价幅度_USD_per_bbl = 国内调价幅度_CNY_per_ton / USD_CNY / 7.33",
+  "fx_alignment": "merge_asof backward: use nearest previous USD_CNY close within 7 days",
+  "oil_price_filter": "current and previous international window averages must both be in [40, 80] USD/bbl; current and previous window sample counts must both be in [8, 12]",
+  "sample_count_by_target": {
+    "布伦特": 80,
+    "迪拜": 87,
+    "WTI": 90,
+    "三油算术均价": 84
+  },
+  "outputs": {
+    "samples": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_samples.csv",
+    "summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_summary.json",
+    "chart": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change.svg",
+    "linear_samples_from_2016": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_samples_from_2016.csv",
+    "linear_summary_from_2016": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_summary_from_2016.csv",
+    "linear_summary_json_from_2016": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_summary_from_2016.json",
+    "linear_chart_from_2016": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\domestic_adjustment_vs_international_change_linear_from_2016.svg"
+  }
+}
