@@ -1,0 +1,534 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="920" viewBox="0 0 1320 920">
+<style>
+text{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:12px;fill:#222}
+.title{font-size:18px;font-weight:700}
+.subtitle{font-size:13px;font-weight:700}
+.note{fill:#666;font-size:11px}
+.axis{stroke:#222;stroke-width:1}
+.grid{stroke:#ddd;stroke-width:1}
+.zero{stroke:#888;stroke-width:1.2;stroke-dasharray:4 4}
+.bar{fill:#7a5dbb;opacity:.78}
+.up{fill:#c35a4a;opacity:.76}
+.down{fill:#2f6fbb;opacity:.76}
+.multi{stroke:#111;stroke-width:1.4}
+</style>
+<text class="title" x="78" y="30">布伦特/迪拜/米纳斯433：残差分析</text>
+<text class="note" x="78" y="52">ε_i = 实际国内调价幅度 - 线性拟合调价幅度；红色为国际上涨窗口，蓝色为国际下跌窗口，黑边为多窗口。</text>
+<text class="subtitle" x="78.0" y="68.0">残差随时间变化</text>
+<line class="grid" x1="78.0" y1="428.0" x2="641.0" y2="428.0"/>
+<text x="71.0" y="432.0" text-anchor="end">-10</text>
+<line class="grid" x1="78.0" y1="342.5" x2="641.0" y2="342.5"/>
+<text x="71.0" y="346.5" text-anchor="end">-5</text>
+<line class="grid" x1="78.0" y1="257.0" x2="641.0" y2="257.0"/>
+<text x="71.0" y="261.0" text-anchor="end">0</text>
+<line class="grid" x1="78.0" y1="171.5" x2="641.0" y2="171.5"/>
+<text x="71.0" y="175.5" text-anchor="end">5</text>
+<line class="grid" x1="78.0" y1="86.0" x2="641.0" y2="86.0"/>
+<text x="71.0" y="90.0" text-anchor="end">10</text>
+<line class="grid" x1="78.0" y1="86.0" x2="78.0" y2="428.0"/>
+<text x="78.0" y="450.0" text-anchor="middle">2016</text>
+<line class="grid" x1="190.6" y1="86.0" x2="190.6" y2="428.0"/>
+<text x="190.6" y="450.0" text-anchor="middle">2018</text>
+<line class="grid" x1="303.2" y1="86.0" x2="303.2" y2="428.0"/>
+<text x="303.2" y="450.0" text-anchor="middle">2020</text>
+<line class="grid" x1="415.8" y1="86.0" x2="415.8" y2="428.0"/>
+<text x="415.8" y="450.0" text-anchor="middle">2022</text>
+<line class="grid" x1="528.4" y1="86.0" x2="528.4" y2="428.0"/>
+<text x="528.4" y="450.0" text-anchor="middle">2024</text>
+<line class="grid" x1="641.0" y1="86.0" x2="641.0" y2="428.0"/>
+<text x="641.0" y="450.0" text-anchor="middle">2026</text>
+<line class="zero" x1="78.0" y1="257.0" x2="641.0" y2="257.0"/>
+<line class="axis" x1="78.0" y1="86.0" x2="78.0" y2="428.0"/>
+<line class="axis" x1="78.0" y1="428.0" x2="641.0" y2="428.0"/>
+<text class="note" x="78.0" y="470.0">横轴：调价日期；纵轴：ε_i（USD/bbl）</text>
+<polyline points="78.0,279.8 80.2,238.2 87.0,218.1 89.2,232.1 91.4,282.7 93.6,214.5 96.3,295.6 101.1,195.1 105.6,330.3 107.8,222.3 110.0,257.9 112.2,248.2 114.5,196.6 116.6,276.3 119.7,249.8 124.1,261.5 126.3,263.9 128.7,252.6 133.3,274.0 135.5,243.3 137.8,253.3 140.0,284.8 144.5,261.6 146.7,264.8 153.3,268.6 155.5,280.5 160.8,225.8 163.0,282.2 169.7,246.2 172.0,297.0 174.2,257.5 176.4,273.5 179.4,276.4 183.8,215.3 186.2,315.4 188.4,247.7 190.8,268.1 193.0,239.4 195.2,284.8 197.8,278.0 200.0,185.1 202.3,199.5 204.5,246.6 206.7,226.7 208.9,284.1 211.1,257.4 213.1,243.0 220.5,244.2 222.7,285.6 224.9,254.3 227.1,276.1 229.8,263.7 232.0,243.6 234.7,293.2 236.9,239.7 241.3,253.0 243.7,356.1 245.9,231.4 248.6,262.3 250.8,244.2 253.1,267.7 255.3,261.6 257.5,234.6 261.9,256.8 264.1,235.6 266.3,232.0 268.7,287.8 273.9,263.5 276.1,256.1 278.3,267.6 280.5,266.0 284.9,253.5 290.6,325.0 292.8,218.6 297.2,360.8 321.9,259.3 326.3,333.8 331.7,204.7 338.3,262.5 340.5,276.7 342.7,240.8 345.1,281.7 347.3,253.4 350.4,274.0 352.5,254.4 354.7,250.3 356.9,250.6 361.3,236.6 363.8,303.5 368.2,205.3 381.9,224.3 383.8,220.5 387.1,208.6 389.2,273.8 393.6,299.8 395.8,356.9 398.0,265.8 400.2,218.4 481.3,235.7 483.5,239.2 485.9,208.8 488.1,254.4 490.3,215.9 515.6,216.4 517.8,267.5 520.1,207.8 559.9,234.0 561.9,188.1 564.1,299.6 573.1,224.3 575.3,244.5 580.7,286.0 582.9,274.2 585.1,300.2 587.3,222.6 589.7,298.1 594.7,294.5 597.1,172.8 599.3,256.4 601.5,167.2 603.7,348.7 610.3,307.6 617.9,244.8 620.1,256.4 622.3,247.8 624.5,260.2 626.7,260.9 628.9,282.2 633.4,243.5 635.6,249.5 639.0,232.2 641.0,296.2" fill="none" stroke="#999" stroke-width="1" opacity=".65"/>
+<circle class="up" cx="78.0" cy="279.8" r="3"/>
+<circle class="up" cx="80.2" cy="238.2" r="3"/>
+<circle class="down multi" cx="87.0" cy="218.1" r="3"/>
+<circle class="down" cx="89.2" cy="232.1" r="3"/>
+<circle class="up" cx="91.4" cy="282.7" r="3"/>
+<circle class="up" cx="93.6" cy="214.5" r="3"/>
+<circle class="down" cx="96.3" cy="295.6" r="3"/>
+<circle class="up multi" cx="101.1" cy="195.1" r="3"/>
+<circle class="down multi" cx="105.6" cy="330.3" r="3"/>
+<circle class="up" cx="107.8" cy="222.3" r="3"/>
+<circle class="up" cx="110.0" cy="257.9" r="3"/>
+<circle class="up" cx="112.2" cy="248.2" r="3"/>
+<circle class="up" cx="114.5" cy="196.6" r="3"/>
+<circle class="down" cx="116.6" cy="276.3" r="3"/>
+<circle class="up" cx="119.7" cy="249.8" r="3"/>
+<circle class="down multi" cx="124.1" cy="261.5" r="3"/>
+<circle class="down" cx="126.3" cy="263.9" r="3"/>
+<circle class="up" cx="128.7" cy="252.6" r="3"/>
+<circle class="down multi" cx="133.3" cy="274.0" r="3"/>
+<circle class="up" cx="135.5" cy="243.3" r="3"/>
+<circle class="down" cx="137.8" cy="253.3" r="3"/>
+<circle class="down" cx="140.0" cy="284.8" r="3"/>
+<circle class="up multi" cx="144.5" cy="261.6" r="3"/>
+<circle class="up" cx="146.7" cy="264.8" r="3"/>
+<circle class="up multi" cx="153.3" cy="268.6" r="3"/>
+<circle class="up" cx="155.5" cy="280.5" r="3"/>
+<circle class="up multi" cx="160.8" cy="225.8" r="3"/>
+<circle class="up" cx="163.0" cy="282.2" r="3"/>
+<circle class="up multi" cx="169.7" cy="246.2" r="3"/>
+<circle class="up" cx="172.0" cy="297.0" r="3"/>
+<circle class="up" cx="174.2" cy="257.5" r="3"/>
+<circle class="down" cx="176.4" cy="273.5" r="3"/>
+<circle class="down" cx="179.4" cy="276.4" r="3"/>
+<circle class="up multi" cx="183.8" cy="215.3" r="3"/>
+<circle class="up" cx="186.2" cy="315.4" r="3"/>
+<circle class="up" cx="188.4" cy="247.7" r="3"/>
+<circle class="up" cx="190.8" cy="268.1" r="3"/>
+<circle class="up" cx="193.0" cy="239.4" r="3"/>
+<circle class="down" cx="195.2" cy="284.8" r="3"/>
+<circle class="down" cx="197.8" cy="278.0" r="3"/>
+<circle class="up" cx="200.0" cy="185.1" r="3"/>
+<circle class="down" cx="202.3" cy="199.5" r="3"/>
+<circle class="up" cx="204.5" cy="246.6" r="3"/>
+<circle class="down" cx="206.7" cy="226.7" r="3"/>
+<circle class="up" cx="208.9" cy="284.1" r="3"/>
+<circle class="up" cx="211.1" cy="257.4" r="3"/>
+<circle class="up" cx="213.1" cy="243.0" r="3"/>
+<circle class="down" cx="220.5" cy="244.2" r="3"/>
+<circle class="down" cx="222.7" cy="285.6" r="3"/>
+<circle class="down" cx="224.9" cy="254.3" r="3"/>
+<circle class="down" cx="227.1" cy="276.1" r="3"/>
+<circle class="up" cx="229.8" cy="263.7" r="3"/>
+<circle class="up" cx="232.0" cy="243.6" r="3"/>
+<circle class="up" cx="234.7" cy="293.2" r="3"/>
+<circle class="up" cx="236.9" cy="239.7" r="3"/>
+<circle class="up multi" cx="241.3" cy="253.0" r="3"/>
+<circle class="up" cx="243.7" cy="356.1" r="3"/>
+<circle class="up" cx="245.9" cy="231.4" r="3"/>
+<circle class="down" cx="248.6" cy="262.3" r="3"/>
+<circle class="up" cx="250.8" cy="244.2" r="3"/>
+<circle class="down" cx="253.1" cy="267.7" r="3"/>
+<circle class="down" cx="255.3" cy="261.6" r="3"/>
+<circle class="up" cx="257.5" cy="234.6" r="3"/>
+<circle class="down multi" cx="261.9" cy="256.8" r="3"/>
+<circle class="down" cx="264.1" cy="235.6" r="3"/>
+<circle class="up" cx="266.3" cy="232.0" r="3"/>
+<circle class="up" cx="268.7" cy="287.8" r="3"/>
+<circle class="down multi" cx="273.9" cy="263.5" r="3"/>
+<circle class="up" cx="276.1" cy="256.1" r="3"/>
+<circle class="up" cx="278.3" cy="267.6" r="3"/>
+<circle class="up" cx="280.5" cy="266.0" r="3"/>
+<circle class="up multi" cx="284.9" cy="253.5" r="3"/>
+<circle class="down multi" cx="290.6" cy="325.0" r="3"/>
+<circle class="down" cx="292.8" cy="218.6" r="3"/>
+<circle class="down multi" cx="297.2" cy="360.8" r="3"/>
+<circle class="up multi" cx="321.9" cy="259.3" r="3"/>
+<circle class="down multi" cx="326.3" cy="333.8" r="3"/>
+<circle class="down multi" cx="331.7" cy="204.7" r="3"/>
+<circle class="up" cx="338.3" cy="262.5" r="3"/>
+<circle class="up" cx="340.5" cy="276.7" r="3"/>
+<circle class="up" cx="342.7" cy="240.8" r="3"/>
+<circle class="up" cx="345.1" cy="281.7" r="3"/>
+<circle class="up" cx="347.3" cy="253.4" r="3"/>
+<circle class="up" cx="350.4" cy="274.0" r="3"/>
+<circle class="up" cx="352.5" cy="254.4" r="3"/>
+<circle class="up" cx="354.7" cy="250.3" r="3"/>
+<circle class="down" cx="356.9" cy="250.6" r="3"/>
+<circle class="up multi" cx="361.3" cy="236.6" r="3"/>
+<circle class="up" cx="363.8" cy="303.5" r="3"/>
+<circle class="up multi" cx="368.2" cy="205.3" r="3"/>
+<circle class="up" cx="381.9" cy="224.3" r="3"/>
+<circle class="down" cx="383.8" cy="220.5" r="3"/>
+<circle class="up multi" cx="387.1" cy="208.6" r="3"/>
+<circle class="up" cx="389.2" cy="273.8" r="3"/>
+<circle class="up multi" cx="393.6" cy="299.8" r="3"/>
+<circle class="down" cx="395.8" cy="356.9" r="3"/>
+<circle class="down" cx="398.0" cy="265.8" r="3"/>
+<circle class="up" cx="400.2" cy="218.4" r="3"/>
+<circle class="up" cx="481.3" cy="235.7" r="3"/>
+<circle class="down" cx="483.5" cy="239.2" r="3"/>
+<circle class="down" cx="485.9" cy="208.8" r="3"/>
+<circle class="up" cx="488.1" cy="254.4" r="3"/>
+<circle class="up" cx="490.3" cy="215.9" r="3"/>
+<circle class="up" cx="515.6" cy="216.4" r="3"/>
+<circle class="down" cx="517.8" cy="267.5" r="3"/>
+<circle class="up" cx="520.1" cy="207.8" r="3"/>
+<circle class="up" cx="559.9" cy="234.0" r="3"/>
+<circle class="down" cx="561.9" cy="188.1" r="3"/>
+<circle class="down" cx="564.1" cy="299.6" r="3"/>
+<circle class="down multi" cx="573.1" cy="224.3" r="3"/>
+<circle class="up" cx="575.3" cy="244.5" r="3"/>
+<circle class="down multi" cx="580.7" cy="286.0" r="3"/>
+<circle class="down" cx="582.9" cy="274.2" r="3"/>
+<circle class="down" cx="585.1" cy="300.2" r="3"/>
+<circle class="up" cx="587.3" cy="222.6" r="3"/>
+<circle class="down" cx="589.7" cy="298.1" r="3"/>
+<circle class="down multi" cx="594.7" cy="294.5" r="3"/>
+<circle class="down" cx="597.1" cy="172.8" r="3"/>
+<circle class="up" cx="599.3" cy="256.4" r="3"/>
+<circle class="down" cx="601.5" cy="167.2" r="3"/>
+<circle class="up" cx="603.7" cy="348.7" r="3"/>
+<circle class="down multi" cx="610.3" cy="307.6" r="3"/>
+<circle class="down multi" cx="617.9" cy="244.8" r="3"/>
+<circle class="down" cx="620.1" cy="256.4" r="3"/>
+<circle class="up" cx="622.3" cy="247.8" r="3"/>
+<circle class="down" cx="624.5" cy="260.2" r="3"/>
+<circle class="down" cx="626.7" cy="260.9" r="3"/>
+<circle class="down" cx="628.9" cy="282.2" r="3"/>
+<circle class="up multi" cx="633.4" cy="243.5" r="3"/>
+<circle class="up" cx="635.6" cy="249.5" r="3"/>
+<circle class="up multi" cx="639.0" cy="232.2" r="3"/>
+<circle class="up" cx="641.0" cy="296.2" r="3"/>
+<text class="subtitle" x="713.0" y="68.0">残差 vs 国际价格变动</text>
+<line class="grid" x1="713.0" y1="428.0" x2="1276.0" y2="428.0"/>
+<text x="706.0" y="432.0" text-anchor="end">-10</text>
+<line class="grid" x1="713.0" y1="342.5" x2="1276.0" y2="342.5"/>
+<text x="706.0" y="346.5" text-anchor="end">-5</text>
+<line class="grid" x1="713.0" y1="257.0" x2="1276.0" y2="257.0"/>
+<text x="706.0" y="261.0" text-anchor="end">0</text>
+<line class="grid" x1="713.0" y1="171.5" x2="1276.0" y2="171.5"/>
+<text x="706.0" y="175.5" text-anchor="end">5</text>
+<line class="grid" x1="713.0" y1="86.0" x2="1276.0" y2="86.0"/>
+<text x="706.0" y="90.0" text-anchor="end">10</text>
+<line class="grid" x1="713.0" y1="86.0" x2="713.0" y2="428.0"/>
+<text x="713.0" y="450.0" text-anchor="middle">-15</text>
+<line class="grid" x1="806.8" y1="86.0" x2="806.8" y2="428.0"/>
+<text x="806.8" y="450.0" text-anchor="middle">-10</text>
+<line class="grid" x1="900.7" y1="86.0" x2="900.7" y2="428.0"/>
+<text x="900.7" y="450.0" text-anchor="middle">-5</text>
+<line class="grid" x1="994.5" y1="86.0" x2="994.5" y2="428.0"/>
+<text x="994.5" y="450.0" text-anchor="middle">0</text>
+<line class="grid" x1="1088.3" y1="86.0" x2="1088.3" y2="428.0"/>
+<text x="1088.3" y="450.0" text-anchor="middle">5</text>
+<line class="grid" x1="1182.2" y1="86.0" x2="1182.2" y2="428.0"/>
+<text x="1182.2" y="450.0" text-anchor="middle">10</text>
+<line class="grid" x1="1276.0" y1="86.0" x2="1276.0" y2="428.0"/>
+<text x="1276.0" y="450.0" text-anchor="middle">15</text>
+<line class="zero" x1="713.0" y1="257.0" x2="1276.0" y2="257.0"/>
+<line class="zero" x1="994.5" y1="86.0" x2="994.5" y2="428.0"/>
+<line class="axis" x1="713.0" y1="86.0" x2="713.0" y2="428.0"/>
+<line class="axis" x1="713.0" y1="428.0" x2="1276.0" y2="428.0"/>
+<text class="note" x="713.0" y="470.0">横轴：Δp_i（USD/bbl）；纵轴：ε_i（USD/bbl）</text>
+<circle class="up" cx="1072.0" cy="279.8" r="3.2"/>
+<circle class="up" cx="1009.4" cy="238.2" r="3.2"/>
+<circle class="down multi" cx="917.5" cy="218.1" r="3.2"/>
+<circle class="down" cx="910.3" cy="232.1" r="3.2"/>
+<circle class="up" cx="1063.5" cy="282.7" r="3.2"/>
+<circle class="up" cx="1016.6" cy="214.5" r="3.2"/>
+<circle class="down" cx="980.3" cy="295.6" r="3.2"/>
+<circle class="up multi" cx="1042.3" cy="195.1" r="3.2"/>
+<circle class="down multi" cx="952.0" cy="330.3" r="3.2"/>
+<circle class="up" cx="1012.9" cy="222.3" r="3.2"/>
+<circle class="up" cx="1112.2" cy="257.9" r="3.2"/>
+<circle class="up" cx="1013.0" cy="248.2" r="3.2"/>
+<circle class="up" cx="1009.8" cy="196.6" r="3.2"/>
+<circle class="down" cx="989.3" cy="276.3" r="3.2"/>
+<circle class="up" cx="1000.9" cy="249.8" r="3.2"/>
+<circle class="down multi" cx="973.3" cy="261.5" r="3.2"/>
+<circle class="down" cx="935.4" cy="263.9" r="3.2"/>
+<circle class="up" cx="1044.3" cy="252.6" r="3.2"/>
+<circle class="down multi" cx="938.2" cy="274.0" r="3.2"/>
+<circle class="up" cx="1020.5" cy="243.3" r="3.2"/>
+<circle class="down" cx="939.9" cy="253.3" r="3.2"/>
+<circle class="down" cx="946.4" cy="284.8" r="3.2"/>
+<circle class="up multi" cx="1017.6" cy="261.6" r="3.2"/>
+<circle class="up" cx="1048.5" cy="264.8" r="3.2"/>
+<circle class="up multi" cx="1029.8" cy="268.6" r="3.2"/>
+<circle class="up" cx="1071.7" cy="280.5" r="3.2"/>
+<circle class="up multi" cx="1010.4" cy="225.8" r="3.2"/>
+<circle class="up" cx="1089.0" cy="282.2" r="3.2"/>
+<circle class="up multi" cx="1004.6" cy="246.2" r="3.2"/>
+<circle class="up" cx="1078.1" cy="297.0" r="3.2"/>
+<circle class="up" cx="1012.8" cy="257.5" r="3.2"/>
+<circle class="down" cx="955.3" cy="273.5" r="3.2"/>
+<circle class="down" cx="952.1" cy="276.4" r="3.2"/>
+<circle class="up multi" cx="1010.3" cy="215.3" r="3.2"/>
+<circle class="up" cx="1056.9" cy="315.4" r="3.2"/>
+<circle class="up" cx="1061.6" cy="247.7" r="3.2"/>
+<circle class="up" cx="1031.8" cy="268.1" r="3.2"/>
+<circle class="up" cx="1055.6" cy="239.4" r="3.2"/>
+<circle class="down" cx="977.1" cy="284.8" r="3.2"/>
+<circle class="down" cx="994.2" cy="278.0" r="3.2"/>
+<circle class="up" cx="1011.7" cy="185.1" r="3.2"/>
+<circle class="down" cx="911.5" cy="199.5" r="3.2"/>
+<circle class="up" cx="1003.9" cy="246.6" r="3.2"/>
+<circle class="down" cx="954.6" cy="226.7" r="3.2"/>
+<circle class="up" cx="1064.7" cy="284.1" r="3.2"/>
+<circle class="up" cx="1033.2" cy="257.4" r="3.2"/>
+<circle class="up" cx="1047.7" cy="243.0" r="3.2"/>
+<circle class="down" cx="843.5" cy="244.2" r="3.2"/>
+<circle class="down" cx="869.4" cy="285.6" r="3.2"/>
+<circle class="down" cx="956.5" cy="254.3" r="3.2"/>
+<circle class="down" cx="906.7" cy="276.1" r="3.2"/>
+<circle class="up" cx="1027.7" cy="263.7" r="3.2"/>
+<circle class="up" cx="1050.9" cy="243.6" r="3.2"/>
+<circle class="up" cx="1036.3" cy="293.2" r="3.2"/>
+<circle class="up" cx="1055.1" cy="239.7" r="3.2"/>
+<circle class="up multi" cx="1012.2" cy="253.0" r="3.2"/>
+<circle class="up" cx="1059.2" cy="356.1" r="3.2"/>
+<circle class="up" cx="1027.0" cy="231.4" r="3.2"/>
+<circle class="down" cx="976.6" cy="262.3" r="3.2"/>
+<circle class="up" cx="996.2" cy="244.2" r="3.2"/>
+<circle class="down" cx="874.5" cy="267.7" r="3.2"/>
+<circle class="down" cx="963.7" cy="261.6" r="3.2"/>
+<circle class="up" cx="1016.0" cy="234.6" r="3.2"/>
+<circle class="down multi" cx="971.4" cy="256.8" r="3.2"/>
+<circle class="down" cx="919.4" cy="235.6" r="3.2"/>
+<circle class="up" cx="1003.2" cy="232.0" r="3.2"/>
+<circle class="up" cx="1051.2" cy="287.8" r="3.2"/>
+<circle class="down multi" cx="958.1" cy="263.5" r="3.2"/>
+<circle class="up" cx="1020.6" cy="256.1" r="3.2"/>
+<circle class="up" cx="1020.4" cy="267.6" r="3.2"/>
+<circle class="up" cx="1015.0" cy="266.0" r="3.2"/>
+<circle class="up multi" cx="1053.9" cy="253.5" r="3.2"/>
+<circle class="down multi" cx="934.2" cy="325.0" r="3.2"/>
+<circle class="down" cx="849.7" cy="218.6" r="3.2"/>
+<circle class="down multi" cx="804.7" cy="360.8" r="3.2"/>
+<circle class="up multi" cx="1018.1" cy="259.3" r="3.2"/>
+<circle class="down multi" cx="967.2" cy="333.8" r="3.2"/>
+<circle class="down multi" cx="973.1" cy="204.7" r="3.2"/>
+<circle class="up" cx="1069.8" cy="262.5" r="3.2"/>
+<circle class="up" cx="1053.7" cy="276.7" r="3.2"/>
+<circle class="up" cx="1005.9" cy="240.8" r="3.2"/>
+<circle class="up" cx="1067.0" cy="281.7" r="3.2"/>
+<circle class="up" cx="1012.1" cy="253.4" r="3.2"/>
+<circle class="up" cx="1087.3" cy="274.0" r="3.2"/>
+<circle class="up" cx="1066.8" cy="254.4" r="3.2"/>
+<circle class="up" cx="1055.8" cy="250.3" r="3.2"/>
+<circle class="down" cx="922.9" cy="250.6" r="3.2"/>
+<circle class="up multi" cx="1005.7" cy="236.6" r="3.2"/>
+<circle class="up" cx="1060.0" cy="303.5" r="3.2"/>
+<circle class="up multi" cx="1002.8" cy="205.3" r="3.2"/>
+<circle class="up" cx="1007.4" cy="224.3" r="3.2"/>
+<circle class="down" cx="989.7" cy="220.5" r="3.2"/>
+<circle class="up multi" cx="1055.0" cy="208.6" r="3.2"/>
+<circle class="up" cx="1095.4" cy="273.8" r="3.2"/>
+<circle class="up multi" cx="999.5" cy="299.8" r="3.2"/>
+<circle class="down" cx="946.4" cy="356.9" r="3.2"/>
+<circle class="down" cx="961.5" cy="265.8" r="3.2"/>
+<circle class="up" cx="1003.3" cy="218.4" r="3.2"/>
+<circle class="up" cx="1002.3" cy="235.7" r="3.2"/>
+<circle class="down" cx="964.0" cy="239.2" r="3.2"/>
+<circle class="down" cx="972.1" cy="208.8" r="3.2"/>
+<circle class="up" cx="1031.8" cy="254.4" r="3.2"/>
+<circle class="up" cx="1032.2" cy="215.9" r="3.2"/>
+<circle class="up" cx="1012.9" cy="216.4" r="3.2"/>
+<circle class="down" cx="988.3" cy="267.5" r="3.2"/>
+<circle class="up" cx="1005.7" cy="207.8" r="3.2"/>
+<circle class="up" cx="1011.8" cy="234.0" r="3.2"/>
+<circle class="down" cx="961.0" cy="188.1" r="3.2"/>
+<circle class="down" cx="989.1" cy="299.6" r="3.2"/>
+<circle class="down multi" cx="984.5" cy="224.3" r="3.2"/>
+<circle class="up" cx="1070.6" cy="244.5" r="3.2"/>
+<circle class="down multi" cx="972.1" cy="286.0" r="3.2"/>
+<circle class="down" cx="971.7" cy="274.2" r="3.2"/>
+<circle class="down" cx="954.9" cy="300.2" r="3.2"/>
+<circle class="up" cx="1024.8" cy="222.6" r="3.2"/>
+<circle class="down" cx="901.9" cy="298.1" r="3.2"/>
+<circle class="down multi" cx="963.1" cy="294.5" r="3.2"/>
+<circle class="down" cx="941.8" cy="172.8" r="3.2"/>
+<circle class="up" cx="1060.9" cy="256.4" r="3.2"/>
+<circle class="down" cx="982.2" cy="167.2" r="3.2"/>
+<circle class="up" cx="1033.0" cy="348.7" r="3.2"/>
+<circle class="down multi" cx="986.4" cy="307.6" r="3.2"/>
+<circle class="down multi" cx="963.2" cy="244.8" r="3.2"/>
+<circle class="down" cx="921.9" cy="256.4" r="3.2"/>
+<circle class="up" cx="1018.8" cy="247.8" r="3.2"/>
+<circle class="down" cx="976.8" cy="260.2" r="3.2"/>
+<circle class="down" cx="981.4" cy="260.9" r="3.2"/>
+<circle class="down" cx="967.6" cy="282.2" r="3.2"/>
+<circle class="up multi" cx="1005.1" cy="243.5" r="3.2"/>
+<circle class="up" cx="1042.8" cy="249.5" r="3.2"/>
+<circle class="up multi" cx="1021.0" cy="232.2" r="3.2"/>
+<circle class="up" cx="1215.8" cy="296.2" r="3.2"/>
+<text class="subtitle" x="78.0" y="502.0">残差 vs 当前433均价水平</text>
+<line class="grid" x1="78.0" y1="862.0" x2="641.0" y2="862.0"/>
+<text x="71.0" y="866.0" text-anchor="end">-10</text>
+<line class="grid" x1="78.0" y1="776.5" x2="641.0" y2="776.5"/>
+<text x="71.0" y="780.5" text-anchor="end">-5</text>
+<line class="grid" x1="78.0" y1="691.0" x2="641.0" y2="691.0"/>
+<text x="71.0" y="695.0" text-anchor="end">0</text>
+<line class="grid" x1="78.0" y1="605.5" x2="641.0" y2="605.5"/>
+<text x="71.0" y="609.5" text-anchor="end">5</text>
+<line class="grid" x1="78.0" y1="520.0" x2="641.0" y2="520.0"/>
+<text x="71.0" y="524.0" text-anchor="end">10</text>
+<line class="grid" x1="78.0" y1="520.0" x2="78.0" y2="862.0"/>
+<text x="78.0" y="884.0" text-anchor="middle">40</text>
+<line class="grid" x1="218.8" y1="520.0" x2="218.8" y2="862.0"/>
+<text x="218.8" y="884.0" text-anchor="middle">50</text>
+<line class="grid" x1="359.5" y1="520.0" x2="359.5" y2="862.0"/>
+<text x="359.5" y="884.0" text-anchor="middle">60</text>
+<line class="grid" x1="500.2" y1="520.0" x2="500.2" y2="862.0"/>
+<text x="500.2" y="884.0" text-anchor="middle">70</text>
+<line class="grid" x1="641.0" y1="520.0" x2="641.0" y2="862.0"/>
+<text x="641.0" y="884.0" text-anchor="middle">80</text>
+<line class="zero" x1="78.0" y1="691.0" x2="641.0" y2="691.0"/>
+<line class="axis" x1="78.0" y1="520.0" x2="78.0" y2="862.0"/>
+<line class="axis" x1="78.0" y1="862.0" x2="641.0" y2="862.0"/>
+<text class="note" x="78.0" y="904.0">横轴：p_i（USD/bbl）；纵轴：ε_i（USD/bbl）；50/70附近可观察区间差异</text>
+<line class="zero" x1="218.8" y1="520.0" x2="218.8" y2="862.0"/>
+<line class="zero" x1="500.2" y1="520.0" x2="500.2" y2="862.0"/>
+<circle class="up" cx="192.4" cy="713.8" r="3.2"/>
+<circle class="up" cx="203.6" cy="672.2" r="3.2"/>
+<circle class="down multi" cx="145.8" cy="652.1" r="3.2"/>
+<circle class="down" cx="82.7" cy="666.1" r="3.2"/>
+<circle class="up" cx="134.4" cy="716.7" r="3.2"/>
+<circle class="up" cx="151.0" cy="648.5" r="3.2"/>
+<circle class="down" cx="140.3" cy="729.6" r="3.2"/>
+<circle class="up multi" cx="176.2" cy="629.1" r="3.2"/>
+<circle class="down multi" cx="144.3" cy="764.3" r="3.2"/>
+<circle class="up" cx="158.1" cy="656.3" r="3.2"/>
+<circle class="up" cx="246.4" cy="691.9" r="3.2"/>
+<circle class="up" cx="260.3" cy="682.2" r="3.2"/>
+<circle class="up" cx="271.7" cy="630.6" r="3.2"/>
+<circle class="down" cx="267.8" cy="710.3" r="3.2"/>
+<circle class="up" cx="272.6" cy="683.8" r="3.2"/>
+<circle class="down multi" cx="256.7" cy="695.5" r="3.2"/>
+<circle class="down" cx="212.4" cy="697.9" r="3.2"/>
+<circle class="up" cx="249.7" cy="686.6" r="3.2"/>
+<circle class="down multi" cx="207.5" cy="708.0" r="3.2"/>
+<circle class="up" cx="227.0" cy="677.3" r="3.2"/>
+<circle class="down" cx="186.0" cy="687.3" r="3.2"/>
+<circle class="down" cx="149.9" cy="718.8" r="3.2"/>
+<circle class="up multi" cx="167.3" cy="695.6" r="3.2"/>
+<circle class="up" cx="207.8" cy="698.8" r="3.2"/>
+<circle class="up multi" cx="234.2" cy="702.6" r="3.2"/>
+<circle class="up" cx="292.1" cy="714.5" r="3.2"/>
+<circle class="up multi" cx="304.0" cy="659.8" r="3.2"/>
+<circle class="up" cx="374.9" cy="716.2" r="3.2"/>
+<circle class="up multi" cx="382.5" cy="680.2" r="3.2"/>
+<circle class="up" cx="445.1" cy="731.0" r="3.2"/>
+<circle class="up" cx="458.9" cy="691.5" r="3.2"/>
+<circle class="down" cx="429.5" cy="707.5" r="3.2"/>
+<circle class="down" cx="397.7" cy="710.4" r="3.2"/>
+<circle class="up multi" cx="409.5" cy="649.3" r="3.2"/>
+<circle class="up" cx="456.3" cy="749.4" r="3.2"/>
+<circle class="up" cx="506.6" cy="681.7" r="3.2"/>
+<circle class="up" cx="534.7" cy="702.1" r="3.2"/>
+<circle class="up" cx="580.5" cy="673.4" r="3.2"/>
+<circle class="down" cx="567.4" cy="718.8" r="3.2"/>
+<circle class="down" cx="567.2" cy="712.0" r="3.2"/>
+<circle class="up" cx="580.0" cy="619.1" r="3.2"/>
+<circle class="down" cx="517.8" cy="633.5" r="3.2"/>
+<circle class="up" cx="524.8" cy="680.6" r="3.2"/>
+<circle class="down" cx="494.9" cy="660.7" r="3.2"/>
+<circle class="up" cx="547.5" cy="718.1" r="3.2"/>
+<circle class="up" cx="576.5" cy="691.4" r="3.2"/>
+<circle class="up" cx="616.4" cy="677.0" r="3.2"/>
+<circle class="down" cx="462.1" cy="678.2" r="3.2"/>
+<circle class="down" cx="368.3" cy="719.6" r="3.2"/>
+<circle class="down" cx="339.8" cy="688.3" r="3.2"/>
+<circle class="down" cx="274.0" cy="710.1" r="3.2"/>
+<circle class="up" cx="298.9" cy="697.7" r="3.2"/>
+<circle class="up" cx="341.2" cy="677.6" r="3.2"/>
+<circle class="up" cx="372.5" cy="727.2" r="3.2"/>
+<circle class="up" cx="418.0" cy="673.7" r="3.2"/>
+<circle class="up multi" cx="431.3" cy="687.0" r="3.2"/>
+<circle class="up" cx="479.8" cy="790.1" r="3.2"/>
+<circle class="up" cx="504.1" cy="665.4" r="3.2"/>
+<circle class="down" cx="490.7" cy="696.3" r="3.2"/>
+<circle class="up" cx="492.0" cy="678.2" r="3.2"/>
+<circle class="down" cx="402.0" cy="701.7" r="3.2"/>
+<circle class="down" cx="378.9" cy="695.6" r="3.2"/>
+<circle class="up" cx="395.1" cy="668.6" r="3.2"/>
+<circle class="down multi" cx="377.8" cy="690.8" r="3.2"/>
+<circle class="down" cx="321.4" cy="669.6" r="3.2"/>
+<circle class="up" cx="327.9" cy="666.0" r="3.2"/>
+<circle class="up" cx="370.4" cy="721.8" r="3.2"/>
+<circle class="down multi" cx="343.1" cy="697.5" r="3.2"/>
+<circle class="up" cx="362.7" cy="690.1" r="3.2"/>
+<circle class="up" cx="382.1" cy="701.6" r="3.2"/>
+<circle class="up" cx="397.5" cy="700.0" r="3.2"/>
+<circle class="up multi" cx="442.0" cy="687.5" r="3.2"/>
+<circle class="down multi" cx="396.8" cy="759.0" r="3.2"/>
+<circle class="down" cx="288.2" cy="652.6" r="3.2"/>
+<circle class="down multi" cx="145.9" cy="794.8" r="3.2"/>
+<circle class="up multi" cx="126.1" cy="693.3" r="3.2"/>
+<circle class="down multi" cx="105.7" cy="767.8" r="3.2"/>
+<circle class="down multi" cx="89.7" cy="638.7" r="3.2"/>
+<circle class="up" cx="166.7" cy="696.5" r="3.2"/>
+<circle class="up" cx="211.2" cy="710.7" r="3.2"/>
+<circle class="up" cx="219.7" cy="674.8" r="3.2"/>
+<circle class="up" cx="274.1" cy="715.7" r="3.2"/>
+<circle class="up" cx="287.3" cy="687.4" r="3.2"/>
+<circle class="up" cx="356.9" cy="708.0" r="3.2"/>
+<circle class="up" cx="411.1" cy="688.4" r="3.2"/>
+<circle class="up" cx="457.1" cy="684.3" r="3.2"/>
+<circle class="down" cx="403.4" cy="684.6" r="3.2"/>
+<circle class="up multi" cx="411.8" cy="670.6" r="3.2"/>
+<circle class="up" cx="461.0" cy="737.5" r="3.2"/>
+<circle class="up multi" cx="467.2" cy="639.3" r="3.2"/>
+<circle class="up" cx="519.0" cy="658.3" r="3.2"/>
+<circle class="down" cx="515.4" cy="654.5" r="3.2"/>
+<circle class="up multi" cx="560.7" cy="642.6" r="3.2"/>
+<circle class="up" cx="636.4" cy="707.8" r="3.2"/>
+<circle class="up multi" cx="640.2" cy="733.8" r="3.2"/>
+<circle class="down" cx="604.1" cy="790.9" r="3.2"/>
+<circle class="down" cx="579.3" cy="699.8" r="3.2"/>
+<circle class="up" cx="585.9" cy="652.4" r="3.2"/>
+<circle class="up" cx="600.8" cy="669.7" r="3.2"/>
+<circle class="down" cx="578.0" cy="673.2" r="3.2"/>
+<circle class="down" cx="561.2" cy="642.8" r="3.2"/>
+<circle class="up" cx="589.2" cy="688.4" r="3.2"/>
+<circle class="up" cx="617.5" cy="649.9" r="3.2"/>
+<circle class="up" cx="632.7" cy="650.4" r="3.2"/>
+<circle class="down" cx="628.0" cy="701.5" r="3.2"/>
+<circle class="up" cx="636.4" cy="641.8" r="3.2"/>
+<circle class="up" cx="589.4" cy="668.0" r="3.2"/>
+<circle class="down" cx="564.3" cy="622.1" r="3.2"/>
+<circle class="down" cx="560.2" cy="733.6" r="3.2"/>
+<circle class="down multi" cx="552.8" cy="658.3" r="3.2"/>
+<circle class="up" cx="609.9" cy="678.5" r="3.2"/>
+<circle class="down multi" cx="593.1" cy="720.0" r="3.2"/>
+<circle class="down" cx="576.0" cy="708.2" r="3.2"/>
+<circle class="down" cx="546.3" cy="734.2" r="3.2"/>
+<circle class="up" cx="569.0" cy="656.6" r="3.2"/>
+<circle class="down" cx="499.6" cy="732.1" r="3.2"/>
+<circle class="down multi" cx="476.0" cy="728.5" r="3.2"/>
+<circle class="down" cx="436.5" cy="606.8" r="3.2"/>
+<circle class="up" cx="486.3" cy="690.4" r="3.2"/>
+<circle class="down" cx="477.0" cy="601.2" r="3.2"/>
+<circle class="up" cx="505.9" cy="782.7" r="3.2"/>
+<circle class="down multi" cx="499.8" cy="741.6" r="3.2"/>
+<circle class="down multi" cx="476.3" cy="678.8" r="3.2"/>
+<circle class="down" cx="421.8" cy="690.4" r="3.2"/>
+<circle class="up" cx="440.0" cy="681.8" r="3.2"/>
+<circle class="down" cx="426.8" cy="694.2" r="3.2"/>
+<circle class="down" cx="416.9" cy="694.9" r="3.2"/>
+<circle class="down" cx="396.8" cy="716.2" r="3.2"/>
+<circle class="up multi" cx="404.8" cy="677.5" r="3.2"/>
+<circle class="up" cx="440.9" cy="683.5" r="3.2"/>
+<circle class="up multi" cx="460.8" cy="666.2" r="3.2"/>
+<circle class="up" cx="626.8" cy="730.2" r="3.2"/>
+<text class="subtitle" x="713.0" y="502.0">残差直方图</text>
+<line class="grid" x1="713.0" y1="862.0" x2="1276.0" y2="862.0"/>
+<text x="706.0" y="866.0" text-anchor="end">0</text>
+<line class="grid" x1="713.0" y1="748.0" x2="1276.0" y2="748.0"/>
+<text x="706.0" y="752.0" text-anchor="end">10</text>
+<line class="grid" x1="713.0" y1="634.0" x2="1276.0" y2="634.0"/>
+<text x="706.0" y="638.0" text-anchor="end">20</text>
+<line class="grid" x1="713.0" y1="520.0" x2="1276.0" y2="520.0"/>
+<text x="706.0" y="524.0" text-anchor="end">30</text>
+<rect class="bar" x="713.0" y="850.6" width="37.4" height="11.4"/>
+<text x="731.7" y="884.0" text-anchor="middle">-7</text>
+<rect class="bar" x="753.4" y="827.8" width="37.4" height="34.2"/>
+<rect class="bar" x="793.9" y="839.2" width="37.4" height="22.8"/>
+<text x="812.6" y="884.0" text-anchor="middle">-5</text>
+<rect class="bar" x="834.3" y="839.2" width="37.4" height="22.8"/>
+<rect class="bar" x="874.7" y="736.6" width="37.4" height="125.4"/>
+<text x="893.4" y="884.0" text-anchor="middle">-3</text>
+<rect class="bar" x="915.1" y="656.8" width="37.4" height="205.2"/>
+<rect class="bar" x="955.6" y="565.6" width="37.4" height="296.4"/>
+<text x="974.3" y="884.0" text-anchor="middle">-1</text>
+<rect class="bar" x="996.0" y="520.0" width="37.4" height="342.0"/>
+<rect class="bar" x="1036.4" y="668.2" width="37.4" height="193.8"/>
+<text x="1055.1" y="884.0" text-anchor="middle">1</text>
+<rect class="bar" x="1076.9" y="713.8" width="37.4" height="148.2"/>
+<rect class="bar" x="1117.3" y="805.0" width="37.4" height="57.0"/>
+<text x="1136.0" y="884.0" text-anchor="middle">3</text>
+<rect class="bar" x="1157.7" y="827.8" width="37.4" height="34.2"/>
+<rect class="bar" x="1198.1" y="850.6" width="37.4" height="11.4"/>
+<text x="1216.9" y="884.0" text-anchor="middle">5</text>
+<rect class="bar" x="1238.6" y="862.0" width="37.4" height="0.0"/>
+<text x="1257.3" y="884.0" text-anchor="middle">6</text>
+<line class="zero" x1="996.0" y1="520.0" x2="996.0" y2="862.0"/>
+<line class="axis" x1="713.0" y1="520.0" x2="713.0" y2="862.0"/>
+<line class="axis" x1="713.0" y1="862.0" x2="1276.0" y2="862.0"/>
+<text class="note" x="713.0" y="904.0">横轴：ε_i分箱（USD/bbl）；纵轴：数量。</text>
+<text class="note" x="78" y="902">MAE=1.565 USD/bbl；RMSE=2.077 USD/bbl；|ε|&gt;3 的异常点=17。</text>
+</svg>

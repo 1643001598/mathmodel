@@ -1,0 +1,45 @@
+{
+  "definition": "基于2016年以来调价周期自然日间隔的众数推断标准单窗口；推断调价窗口数 = round(周期天数 / 标准窗口天数)，最小为1",
+  "standard_period_days": 14,
+  "rows": 201,
+  "date_min": "2016-01-14",
+  "date_max": "2026-05-09",
+  "window_count_histogram": [
+    {
+      "推断调价窗口数": 1,
+      "数量": 160,
+      "占比": 0.7960199004975125
+    },
+    {
+      "推断调价窗口数": 2,
+      "数量": 29,
+      "占比": 0.14427860696517414
+    },
+    {
+      "推断调价窗口数": 3,
+      "数量": 9,
+      "占比": 0.04477611940298507
+    },
+    {
+      "推断调价窗口数": 4,
+      "数量": 1,
+      "占比": 0.004975124378109453
+    },
+    {
+      "推断调价窗口数": 7,
+      "数量": 2,
+      "占比": 0.009950248756218905
+    }
+  ],
+  "type_counts": {
+    "标准单窗口": 151,
+    "疑似跨多窗口": 28,
+    "多窗口但偏离较大": 13,
+    "单窗口但偏离较大": 9
+  },
+  "outputs": {
+    "date_level_inference": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\调价日期对应窗口数推断_2016以来.csv",
+    "window_count_histogram": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\调价窗口数推断直方图_2016以来.csv",
+    "summary": "C:\\Users\\16430\\Projects\\DailyLogProjects\\models\\datas\\output3\\调价窗口数推断摘要_2016以来.json"
+  }
+}
